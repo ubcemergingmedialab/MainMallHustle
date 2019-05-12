@@ -1,0 +1,4353 @@
+fileFormatVersion: 2
+guid: 44a64901d83735347bc0f2fda5933cb6
+timeCreated: 1521594143
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: A1 Cassiar
+    100002: A1 Cassiar.001
+    100004: A2 Monashee
+    100006: A2 Monashee.001
+    100008: A2 Monashee.002
+    100010: A2 Monashee.003
+    100012: A3 Monashee
+    100014: A3 Monashee.001
+    100016: A4 Cassiar
+    100018: A4 Cassiar.001
+    100020: Abdul Ladha Science Student Centre
+    100022: Agricultural Road
+    100024: Agronomy Road
+    100026: Agronomy Road.001
+    100028: Agronomy Road.002
+    100030: Allard Hall
+    100032: Anthropology And Sociology Building
+    100034: Applied Science Lane
+    100036: Applied Science Lane.001
+    100038: Applied Science Lane.002
+    100040: Aquatic Ecosystems Research Laboratory
+    100042: Arbutus House
+    100044: Audain Art Center
+    100046: B.C. Binning Studios
+    100048: B1 Coast
+    100050: B1 Coast.001
+    100052: B2 Selkirk
+    100054: B2 Selkirk.001
+    100056: B3 Selkirk
+    100058: B4 Coast
+    100060: Barn Day Care
+    100062: Beaty Biodiversity Centre and Museum
+    100064: Belkin Art Gallery
+    100066: Biological Science Road
+    100068: Biological Sciences
+    100070: Biological Sciences Road
+    100072: Bookstore
+    100074: Brimacombe Building
+    100076: Brimacombe Building Addition
+    100078: Buchanan Building Block A
+    100080: Buchanan Building Block B
+    100082: Buchanan Building Block B.001
+    100084: Buchanan Building Block C
+    100086: Buchanan Building Block D
+    100088: Buchanan Building Block E
+    100090: Buchanan Tower
+    100092: C1 Hazelton
+    100094: C1 Hazelton.001
+    100096: C2 Hazelton
+    100098: Campus & Community Planning 1
+    100100: Campus Energy Center
+    100102: CAWP
+    100104: CAWP.001
+    100106: Center for Interactive Research on Sustainability (CIRS) Buildi
+    100108: Central
+    100110: Centre Of Coal And Mineral Processing
+    100112: Centre Of Coal And Mineral Processing.001
+    100114: Chan Centre for the Performing Arts
+    100116: Chemical and Biological Engineering Building
+    100118: Chemistry Building
+    100120: Chemistry Building.001
+    100122: Chemistry Physics Building
+    100124: Civil And Mechanical Engineering Building
+    100126: Civil And Mechanical Lab
+    100128: Civil And Mechanical Structures Lab
+    100130: Clean Energy Research Centre
+    100132: Clean Energy Research Centre.001
+    100134: Clements Green
+    100136: College Highroad
+    100138: Continuing Studies Building
+    100140: Crescent Road
+    100142: Crescent Road.001
+    100144: D.H. Copp Building
+    100146: David Strangway Building
+    100148: Dorothy Somerset Studios
+    100150: Douglas T. Kenny Building
+    100152: Eagles Drive
+    100154: Earth & Ocean Sciences - Main
+    100156: Earth & Ocean Sciences - South
+    100158: Earth Sciences Building
+    100160: Earthquake Engineering Research Facility
+    100162: East Mall
+    100164: East Mall.001
+    100166: East Mall.002
+    100168: East Mall.003
+    100170: East Mall.004
+    100172: East Mall.005
+    100174: East Mall.006
+    100176: East Mall.007
+    100178: East Mall.008
+    100180: East Mall.009
+    100182: East Mall.010
+    100184: East Mall.011
+    100186: Education Library
+    100188: Education Road
+    100190: Education Road.001
+    100192: Education Road.002
+    100194: Education Road.003
+    100196: element
+    100198: element.001
+    100200: element.002
+    100202: element.003
+    100204: element.004
+    100206: element.005
+    100208: element.006
+    100210: element.007
+    100212: element.008
+    100214: element.009
+    100216: element.010
+    100218: element.011
+    100220: element.012
+    100222: element.013
+    100224: element.014
+    100226: element.015
+    100228: element.016
+    100230: element.017
+    100232: element.018
+    100234: element.019
+    100236: element.020
+    100238: element.021
+    100240: element.022
+    100242: element.023
+    100244: element.024
+    100246: element.025
+    100248: element.026
+    100250: element.027
+    100252: element.028
+    100254: element.029
+    100256: element.030
+    100258: element.031
+    100260: element.032
+    100262: element.033
+    100264: element.034
+    100266: element.035
+    100268: element.036
+    100270: element.037
+    100272: element.038
+    100274: element.039
+    100276: element.040
+    100278: element.041
+    100280: element.042
+    100282: element.043
+    100284: element.044
+    100286: element.045
+    100288: element.046
+    100290: element.047
+    100292: element.048
+    100294: element.049
+    100296: element.050
+    100298: element.051
+    100300: element.052
+    100302: element.053
+    100304: element.054
+    100306: element.055
+    100308: element.056
+    100310: element.057
+    100312: element.058
+    100314: element.059
+    100316: element.060
+    100318: element.061
+    100320: element.062
+    100322: element.063
+    100324: element.064
+    100326: element.065
+    100328: element.066
+    100330: element.067
+    100332: element.068
+    100334: element.069
+    100336: element.070
+    100338: element.071
+    100340: element.072
+    100342: element.073
+    100344: element.074
+    100346: element.075
+    100348: element.076
+    100350: element.077
+    100352: element.078
+    100354: element.079
+    100356: element.080
+    100358: element.081
+    100360: element.082
+    100362: element.083
+    100364: element.084
+    100366: element.085
+    100368: element.086
+    100370: element.087
+    100372: element.088
+    100374: element.089
+    100376: element.090
+    100378: element.091
+    100380: element.092
+    100382: element.093
+    100384: element.094
+    100386: element.095
+    100388: element.096
+    100390: element.097
+    100392: element.098
+    100394: element.100
+    100396: element.101
+    100398: element.102
+    100400: element.103
+    100402: element.104
+    100404: element.105
+    100406: element.106
+    100408: element.107
+    100410: element.108
+    100412: element.109
+    100414: element.110
+    100416: element.111
+    100418: element.112
+    100420: element.114
+    100422: element.115
+    100424: element.116
+    100426: element.117
+    100428: element.118
+    100430: element.119
+    100432: element.120
+    100434: element.121
+    100436: element.122
+    100438: element.123
+    100440: element.124
+    100442: element.125
+    100444: element.126
+    100446: element.127
+    100448: element.128
+    100450: element.129
+    100452: element.130
+    100454: element.131
+    100456: element.132
+    100458: element.133
+    100460: element.134
+    100462: element.135
+    100464: element.136
+    100466: element.137
+    100468: element.138
+    100470: element.141
+    100472: element.142
+    100474: element.143
+    100476: element.144
+    100478: element.146
+    100480: element.148
+    100482: element.149
+    100484: element.150
+    100486: element.151
+    100488: element.152
+    100490: element.153
+    100492: element.154
+    100494: element.156
+    100496: element.157
+    100498: element.158
+    100500: element.159
+    100502: element.160
+    100504: element.161
+    100506: element.162
+    100508: element.163
+    100510: element.164
+    100512: element.165
+    100514: element.166
+    100516: element.167
+    100518: element.168
+    100520: element.169
+    100522: element.170
+    100524: element.171
+    100526: element.172
+    100528: element.173
+    100530: element.174
+    100532: element.175
+    100534: element.176
+    100536: element.178
+    100538: element.179
+    100540: element.180
+    100542: element.181
+    100544: element.182
+    100546: element.183
+    100548: element.184
+    100550: element.185
+    100552: element.186
+    100554: element.187
+    100556: element.188
+    100558: element.189
+    100560: element.190
+    100562: element.191
+    100564: element.192
+    100566: element.193
+    100568: element.194
+    100570: element.195
+    100572: element.196
+    100574: element.198
+    100576: element.199
+    100578: element.200
+    100580: element.201
+    100582: element.202
+    100584: element.203
+    100586: element.204
+    100588: element.205
+    100590: element.206
+    100592: element.207
+    100594: element.208
+    100596: element.209
+    100598: element.210
+    100600: element.211
+    100602: element.212
+    100604: element.213
+    100606: element.214
+    100608: element.215
+    100610: element.216
+    100612: element.217
+    100614: element.218
+    100616: element.219
+    100618: element.220
+    100620: element.221
+    100622: element.222
+    100624: element.223
+    100626: element.224
+    100628: element.225
+    100630: element.226
+    100632: element.227
+    100634: element.228
+    100636: element.229
+    100638: element.230
+    100640: element.231
+    100642: element.232
+    100644: element.233
+    100646: element.235
+    100648: element.236
+    100650: element.237
+    100652: element.239
+    100654: element.240
+    100656: element.241
+    100658: element.242
+    100660: element.243
+    100662: element.244
+    100664: element.245
+    100666: element.246
+    100668: element.248
+    100670: element.249
+    100672: element.250
+    100674: element.251
+    100676: element.252
+    100678: element.253
+    100680: element.254
+    100682: element.255
+    100684: element.256
+    100686: element.257
+    100688: element.258
+    100690: element.259
+    100692: element.260
+    100694: element.261
+    100696: element.262
+    100698: element.263
+    100700: element.264
+    100702: element.265
+    100704: element.266
+    100706: element.267
+    100708: element.268
+    100710: element.269
+    100712: element.270
+    100714: element.271
+    100716: element.272
+    100718: element.273
+    100720: element.274
+    100722: element.275
+    100724: element.276
+    100726: element.277
+    100728: element.278
+    100730: element.279
+    100732: element.280
+    100734: element.281
+    100736: element.282
+    100738: element.283
+    100740: element.284
+    100742: element.285
+    100744: element.286
+    100746: element.287
+    100748: element.288
+    100750: element.289
+    100752: element.290
+    100754: element.291
+    100756: element.292
+    100758: element.293
+    100760: element.294
+    100762: element.295
+    100764: element.296
+    100766: element.297
+    100768: element.298
+    100770: element.299
+    100772: element.300
+    100774: element.301
+    100776: element.302
+    100778: element.303
+    100780: element.304
+    100782: element.305
+    100784: element.306
+    100786: element.307
+    100788: element.308
+    100790: element.309
+    100792: element.310
+    100794: element.311
+    100796: element.312
+    100798: element.313
+    100800: element.314
+    100802: element.315
+    100804: element.316
+    100806: element.317
+    100808: element.318
+    100810: element.319
+    100812: element.320
+    100814: element.321
+    100816: element.322
+    100818: element.323
+    100820: element.324
+    100822: element.325
+    100824: element.326
+    100826: element.327
+    100828: element.328
+    100830: element.329
+    100832: element.330
+    100834: element.331
+    100836: element.332
+    100838: element.333
+    100840: element.334
+    100842: element.335
+    100844: element.336
+    100846: element.337
+    100848: element.338
+    100850: element.339
+    100852: element.340
+    100854: element.341
+    100856: element.342
+    100858: element.343
+    100860: element.344
+    100862: element.345
+    100864: element.346
+    100866: element.347
+    100868: element.348
+    100870: element.349
+    100872: element.350
+    100874: element.351
+    100876: element.352
+    100878: element.353
+    100880: element.354
+    100882: element.355
+    100884: element.356
+    100886: element.357
+    100888: element.358
+    100890: element.359
+    100892: element.360
+    100894: element.361
+    100896: element.362
+    100898: element.363
+    100900: element.364
+    100902: element.365
+    100904: element.366
+    100906: element.367
+    100908: element.368
+    100910: element.369
+    100912: element.370
+    100914: element.371
+    100916: element.372
+    100918: element.373
+    100920: element.374
+    100922: element.375
+    100924: element.376
+    100926: element.377
+    100928: element.378
+    100930: element.379
+    100932: element.380
+    100934: element.381
+    100936: element.382
+    100938: element.383
+    100940: element.384
+    100942: element.385
+    100944: element.386
+    100946: element.387
+    100948: element.388
+    100950: element.389
+    100952: element.390
+    100954: element.391
+    100956: element.392
+    100958: element.393
+    100960: element.394
+    100962: element.395
+    100964: element.396
+    100966: element.397
+    100968: element.398
+    100970: element.399
+    100972: element.400
+    100974: element.401
+    100976: element.406
+    100978: element.407
+    100980: element.408
+    100982: element.409
+    100984: element.410
+    100986: element.411
+    100988: element.412
+    100990: element.413
+    100992: element.414
+    100994: element.415
+    100996: element.416
+    100998: element.417
+    101000: element.418
+    101002: element.419
+    101004: element.420
+    101006: element.421
+    101008: element.422
+    101010: element.423
+    101012: element.424
+    101014: element.425
+    101016: element.426
+    101018: element.427
+    101020: element.428
+    101022: element.429
+    101024: element.430
+    101026: element.431
+    101028: element.432
+    101030: element.433
+    101032: element.434
+    101034: element.435
+    101036: element.436
+    101038: element.437
+    101040: element.438
+    101042: element.439
+    101044: element.440
+    101046: element.441
+    101048: element.442
+    101050: element.443
+    101052: element.444
+    101054: element.445
+    101056: element.446
+    101058: element.447
+    101060: element.448
+    101062: element.449
+    101064: element.450
+    101066: element.451
+    101068: element.452
+    101070: element.453
+    101072: element.454
+    101074: element.455
+    101076: element.456
+    101078: element.457
+    101080: element.458
+    101082: element.459
+    101084: element.460
+    101086: element.461
+    101088: element.462
+    101090: element.463
+    101092: element.464
+    101094: element.465
+    101096: element.466
+    101098: element.467
+    101100: element.468
+    101102: element.469
+    101104: element.470
+    101106: element.471
+    101108: element.472
+    101110: element.473
+    101112: element.474
+    101114: element.475
+    101116: element.476
+    101118: element.477
+    101120: element.478
+    101122: element.479
+    101124: element.480
+    101126: element.481
+    101128: element.482
+    101130: element.483
+    101132: element.484
+    101134: element.485
+    101136: element.486
+    101138: element.487
+    101140: element.488
+    101142: element.489
+    101144: element.490
+    101146: element.491
+    101148: element.492
+    101150: element.493
+    101152: element.494
+    101154: element.495
+    101156: element.496
+    101158: element.497
+    101160: element.498
+    101162: element.499
+    101164: element.500
+    101166: element.501
+    101168: element.502
+    101170: element.503
+    101172: element.504
+    101174: element.505
+    101176: element.506
+    101178: element.507
+    101180: element.508
+    101182: element.509
+    101184: element.510
+    101186: element.511
+    101188: element.512
+    101190: element.513
+    101192: element.514
+    101194: element.515
+    101196: element.516
+    101198: element.517
+    101200: element.518
+    101202: element.519
+    101204: element.520
+    101206: element.521
+    101208: element.522
+    101210: element.523
+    101212: element.524
+    101214: element.525
+    101216: element.526
+    101218: element.527
+    101220: element.528
+    101222: element.529
+    101224: element.530
+    101226: element.531
+    101228: element.532
+    101230: element.533
+    101232: element.534
+    101234: element.535
+    101236: element.536
+    101238: element.537
+    101240: element.538
+    101242: element.539
+    101244: element.540
+    101246: element.541
+    101248: element.542
+    101250: element.543
+    101252: element.544
+    101254: element.545
+    101256: element.546
+    101258: element.547
+    101260: element.548
+    101262: element.549
+    101264: element.550
+    101266: element.551
+    101268: element.552
+    101270: element.553
+    101272: element.554
+    101274: element.555
+    101276: element.556
+    101278: element.557
+    101280: element.558
+    101282: element.559
+    101284: element.560
+    101286: element.561
+    101288: element.562
+    101290: element.563
+    101292: element.564
+    101294: element.565
+    101296: element.566
+    101298: element.567
+    101300: element.568
+    101302: element.569
+    101304: element.570
+    101306: element.571
+    101308: element.572
+    101310: element.573
+    101312: element.574
+    101314: element.575
+    101316: element.576
+    101318: element.577
+    101320: element.578
+    101322: element.579
+    101324: element.580
+    101326: element.581
+    101328: element.582
+    101330: element.583
+    101332: element.584
+    101334: element.585
+    101336: element.586
+    101338: element.587
+    101340: element.588
+    101342: element.589
+    101344: element.590
+    101346: element.591
+    101348: element.592
+    101350: element.593
+    101352: element.594
+    101354: element.595
+    101356: element.596
+    101358: Engineering Design Centre (Wayne and William White)
+    101360: Engineering Lane
+    101362: Engineering Road
+    101364: Engineering Road.001
+    101366: Engineering Student Center
+    101368: Food, Nutrition and Health Building
+    101370: Forest Sciences Centre
+    101372: Forest Sciences Centre.001
+    101374: Frank E. Buck
+    101376: Frank Forward Building - Metallurgy
+    101378: Fred Kaiser Building
+    101380: Frederic Lasserre Building
+    101382: Frederic Wood Theatre
+    101384: Geography Building
+    101386: Gerald McGavin Building
+    101388: H.R. Macmillan Building
+    101390: Hampton Place
+    101392: Hawthorn Lane
+    101394: Hawthorn Lane.001
+    101396: Hawthorn Lane.002
+    101398: Health Sciences Mall
+    101400: Health Sciences Mall.001
+    101402: Hebb Building
+    101404: Hebb Theater
+    101406: Hennings Building
+    101408: Henry Angus Building
+    101410: High Head Lab
+    101412: Horticulture Building
+    101414: Hospital Lane
+    101416: Hugh Dempster Pavillion
+    101418: Hut O-4
+    101420: "h\u0259m\u2019l\u0259s\u0259m\u2019 House"
+    101422: ICICS X-Wing
+    101424: Institute For Computing, Information And Cognitive Systems / Co
+    101426: Irving K. Barber Learning Centre
+    101428: Jack Bell Building - School Of Social Work
+    101430: Journey
+    101432: Ladner Clock Tower
+    101434: Landscape Architecture Annex
+    101436: Larkin Drive
+    101438: Leon & Thea Koerner University Centre
+    101440: Leonard S. Klinck Building
+    101442: Loading Lane
+    101444: Loading Lane.001
+    101446: Logan Lane
+    101448: M.F.A Studios
+    101450: Macleod Building
+    101452: Macleod Building.001
+    101454: Main Mall
+    101456: Main Mall.001
+    101458: Main Mall.002
+    101460: Main Mall.003
+    101462: Main Mall.004
+    101464: Main Mall.005
+    101466: Main Mall.006
+    101468: Main Mall.007
+    101470: Main Mall.008
+    101472: Main Mall.009
+    101474: Main Mall.010
+    101476: Main Mall.011
+    101478: Main Mall.012
+    101480: Main Mall.013
+    101482: Main Mall.014
+    101484: Main Mall.015
+    101486: Main Mall.016
+    101488: Main Mall.017
+    101490: //RootNode
+    101492: map_10.osm
+    101494: map_10.osm_buildings
+    101496: map_10.osm_highways
+    101498: map_10.osm_vegetation
+    101500: map_11.osm
+    101502: map_11.osm_buildings
+    101504: map_11.osm_highways
+    101506: map_11.osm_vegetation
+    101508: map_12.osm
+    101510: map_12.osm_buildings
+    101512: map_12.osm_highways
+    101514: map_12.osm_vegetation
+    101516: map_7.osm
+    101518: map_7.osm_buildings
+    101520: map_7.osm_forests
+    101522: map_7.osm_highways
+    101524: map_7.osm_vegetation
+    101526: map_7.osm_water
+    101528: map_8.osm
+    101530: map_8.osm_buildings
+    101532: map_8.osm_highways
+    101534: map_8.osm_vegetation
+    101536: map_9.osm_buildings
+    101538: map_9.osm_forests
+    101540: map_9.osm_highways
+    101542: map_9.osm_vegetation
+    101544: Maple House
+    101546: Math Annex
+    101548: Math Building
+    101550: Mathematics Road
+    101552: Mathematics Road.001
+    101554: Mathematics Road.002
+    101556: Memorial Road
+    101558: Memorial Road.001
+    101560: Mercante
+    101562: Meter Station
+    101564: Music Building
+    101566: Neville Scarfe Building
+    101568: Nine On The Park
+    101570: Northwest Marine Drive
+    101572: Old Administration Building
+    101574: Old Auditorium
+    101576: Old Barn Community Centre
+    101578: Old Student Union Building (SUB)
+    101580: Orchard Commons
+    101582: Orchard House
+    101584: Ponderosa Cedar House
+    101586: Ponderosa Oak House
+    101588: Power House
+    101590: Pulp And Paper Research
+    101592: "q\u2019\u0259l\u0259\u03C7\u0259n House"
+    101594: Reflections
+    101596: Robert H. Lee Alumni Centre
+    101598: Somerset Lane
+    101600: Sopron Lane
+    101602: Sopron Lane.001
+    101604: Spruce House
+    101606: Staff And Faculty Housing
+    101608: Stores Road
+    101610: Stores Road Annex
+    101612: Stores Road.001
+    101614: Student Union Boulevard
+    101616: Swing Space Building
+    101618: Technology Enterprise Facility
+    101620: The Nest (New SUB)
+    101622: Theatre-Film Production Building
+    101624: Theatre-Film Production Building - Annex
+    101626: Thunderbird Boulevard
+    101628: Thunderbird Boulevard.001
+    101630: Thunderbird Boulevard.002
+    101632: Thunderbird Boulevard.003
+    101634: Thunderbird Boulevard.004
+    101636: Thunderbird Crescent
+    101638: Thunderbird Crescent.001
+    101640: Thunderbird Crescent.002
+    101642: Thunderbird Crescent.003
+    101644: Thunderbird Crescent.004
+    101646: Thunderbird Crescent.005
+    101648: Thunderbird Crescent.006
+    101650: Triple O's/Trek Express
+    101652: UBC Bus Loop
+    101654: UBC Housing Receiving
+    101656: UBC Housing Receiving.001
+    101658: UBC Tennis Centre
+    101660: University Boulevard
+    101662: University Boulevard.001
+    101664: University Boulevard.002
+    101666: University Boulevard.003
+    101668: University Boulevard.004
+    101670: University Boulevard.005
+    101672: University Boulevard.006
+    101674: University Boulevard.007
+    101676: University Boulevard.008
+    101678: University Boulevard.009
+    101680: University Boulevard.010
+    101682: University Boulevard.011
+    101684: University Boulevard.012
+    101686: University Boulevard.013
+    101688: University Boulevard.014
+    101690: University Boulevard.015
+    101692: University Boulevard.016
+    101694: University Boulevard.017
+    101696: Volkoff Lane
+    101698: Walter C. Koerner Library
+    101700: Walter Gage Road
+    101702: War Memorial Gym
+    101704: Wesbrook Building
+    101706: Wesbrook Crescent
+    101708: Wesbrook Mall
+    101710: Wesbrook Mall.001
+    101712: Wesbrook Mall.002
+    101714: Wesbrook Mall.003
+    101716: Wesbrook Mall.004
+    101718: Wesbrook Mall.005
+    101720: Wesbrook Mall.006
+    101722: Wesbrook Mall.007
+    101724: West Mall
+    101726: West Mall.001
+    101728: West Mall.002
+    101730: West Mall.003
+    101732: West Mall.004
+    101734: Wood Products Laboratory
+    400000: A1 Cassiar
+    400002: A1 Cassiar.001
+    400004: A2 Monashee
+    400006: A2 Monashee.001
+    400008: A2 Monashee.002
+    400010: A2 Monashee.003
+    400012: A3 Monashee
+    400014: A3 Monashee.001
+    400016: A4 Cassiar
+    400018: A4 Cassiar.001
+    400020: Abdul Ladha Science Student Centre
+    400022: Agricultural Road
+    400024: Agronomy Road
+    400026: Agronomy Road.001
+    400028: Agronomy Road.002
+    400030: Allard Hall
+    400032: Anthropology And Sociology Building
+    400034: Applied Science Lane
+    400036: Applied Science Lane.001
+    400038: Applied Science Lane.002
+    400040: Aquatic Ecosystems Research Laboratory
+    400042: Arbutus House
+    400044: Audain Art Center
+    400046: B.C. Binning Studios
+    400048: B1 Coast
+    400050: B1 Coast.001
+    400052: B2 Selkirk
+    400054: B2 Selkirk.001
+    400056: B3 Selkirk
+    400058: B4 Coast
+    400060: Barn Day Care
+    400062: Beaty Biodiversity Centre and Museum
+    400064: Belkin Art Gallery
+    400066: Biological Science Road
+    400068: Biological Sciences
+    400070: Biological Sciences Road
+    400072: Bookstore
+    400074: Brimacombe Building
+    400076: Brimacombe Building Addition
+    400078: Buchanan Building Block A
+    400080: Buchanan Building Block B
+    400082: Buchanan Building Block B.001
+    400084: Buchanan Building Block C
+    400086: Buchanan Building Block D
+    400088: Buchanan Building Block E
+    400090: Buchanan Tower
+    400092: C1 Hazelton
+    400094: C1 Hazelton.001
+    400096: C2 Hazelton
+    400098: Campus & Community Planning 1
+    400100: Campus Energy Center
+    400102: CAWP
+    400104: CAWP.001
+    400106: Center for Interactive Research on Sustainability (CIRS) Buildi
+    400108: Central
+    400110: Centre Of Coal And Mineral Processing
+    400112: Centre Of Coal And Mineral Processing.001
+    400114: Chan Centre for the Performing Arts
+    400116: Chemical and Biological Engineering Building
+    400118: Chemistry Building
+    400120: Chemistry Building.001
+    400122: Chemistry Physics Building
+    400124: Civil And Mechanical Engineering Building
+    400126: Civil And Mechanical Lab
+    400128: Civil And Mechanical Structures Lab
+    400130: Clean Energy Research Centre
+    400132: Clean Energy Research Centre.001
+    400134: Clements Green
+    400136: College Highroad
+    400138: Continuing Studies Building
+    400140: Crescent Road
+    400142: Crescent Road.001
+    400144: D.H. Copp Building
+    400146: David Strangway Building
+    400148: Dorothy Somerset Studios
+    400150: Douglas T. Kenny Building
+    400152: Eagles Drive
+    400154: Earth & Ocean Sciences - Main
+    400156: Earth & Ocean Sciences - South
+    400158: Earth Sciences Building
+    400160: Earthquake Engineering Research Facility
+    400162: East Mall
+    400164: East Mall.001
+    400166: East Mall.002
+    400168: East Mall.003
+    400170: East Mall.004
+    400172: East Mall.005
+    400174: East Mall.006
+    400176: East Mall.007
+    400178: East Mall.008
+    400180: East Mall.009
+    400182: East Mall.010
+    400184: East Mall.011
+    400186: Education Library
+    400188: Education Road
+    400190: Education Road.001
+    400192: Education Road.002
+    400194: Education Road.003
+    400196: element
+    400198: element.001
+    400200: element.002
+    400202: element.003
+    400204: element.004
+    400206: element.005
+    400208: element.006
+    400210: element.007
+    400212: element.008
+    400214: element.009
+    400216: element.010
+    400218: element.011
+    400220: element.012
+    400222: element.013
+    400224: element.014
+    400226: element.015
+    400228: element.016
+    400230: element.017
+    400232: element.018
+    400234: element.019
+    400236: element.020
+    400238: element.021
+    400240: element.022
+    400242: element.023
+    400244: element.024
+    400246: element.025
+    400248: element.026
+    400250: element.027
+    400252: element.028
+    400254: element.029
+    400256: element.030
+    400258: element.031
+    400260: element.032
+    400262: element.033
+    400264: element.034
+    400266: element.035
+    400268: element.036
+    400270: element.037
+    400272: element.038
+    400274: element.039
+    400276: element.040
+    400278: element.041
+    400280: element.042
+    400282: element.043
+    400284: element.044
+    400286: element.045
+    400288: element.046
+    400290: element.047
+    400292: element.048
+    400294: element.049
+    400296: element.050
+    400298: element.051
+    400300: element.052
+    400302: element.053
+    400304: element.054
+    400306: element.055
+    400308: element.056
+    400310: element.057
+    400312: element.058
+    400314: element.059
+    400316: element.060
+    400318: element.061
+    400320: element.062
+    400322: element.063
+    400324: element.064
+    400326: element.065
+    400328: element.066
+    400330: element.067
+    400332: element.068
+    400334: element.069
+    400336: element.070
+    400338: element.071
+    400340: element.072
+    400342: element.073
+    400344: element.074
+    400346: element.075
+    400348: element.076
+    400350: element.077
+    400352: element.078
+    400354: element.079
+    400356: element.080
+    400358: element.081
+    400360: element.082
+    400362: element.083
+    400364: element.084
+    400366: element.085
+    400368: element.086
+    400370: element.087
+    400372: element.088
+    400374: element.089
+    400376: element.090
+    400378: element.091
+    400380: element.092
+    400382: element.093
+    400384: element.094
+    400386: element.095
+    400388: element.096
+    400390: element.097
+    400392: element.098
+    400394: element.100
+    400396: element.101
+    400398: element.102
+    400400: element.103
+    400402: element.104
+    400404: element.105
+    400406: element.106
+    400408: element.107
+    400410: element.108
+    400412: element.109
+    400414: element.110
+    400416: element.111
+    400418: element.112
+    400420: element.114
+    400422: element.115
+    400424: element.116
+    400426: element.117
+    400428: element.118
+    400430: element.119
+    400432: element.120
+    400434: element.121
+    400436: element.122
+    400438: element.123
+    400440: element.124
+    400442: element.125
+    400444: element.126
+    400446: element.127
+    400448: element.128
+    400450: element.129
+    400452: element.130
+    400454: element.131
+    400456: element.132
+    400458: element.133
+    400460: element.134
+    400462: element.135
+    400464: element.136
+    400466: element.137
+    400468: element.138
+    400470: element.141
+    400472: element.142
+    400474: element.143
+    400476: element.144
+    400478: element.146
+    400480: element.148
+    400482: element.149
+    400484: element.150
+    400486: element.151
+    400488: element.152
+    400490: element.153
+    400492: element.154
+    400494: element.156
+    400496: element.157
+    400498: element.158
+    400500: element.159
+    400502: element.160
+    400504: element.161
+    400506: element.162
+    400508: element.163
+    400510: element.164
+    400512: element.165
+    400514: element.166
+    400516: element.167
+    400518: element.168
+    400520: element.169
+    400522: element.170
+    400524: element.171
+    400526: element.172
+    400528: element.173
+    400530: element.174
+    400532: element.175
+    400534: element.176
+    400536: element.178
+    400538: element.179
+    400540: element.180
+    400542: element.181
+    400544: element.182
+    400546: element.183
+    400548: element.184
+    400550: element.185
+    400552: element.186
+    400554: element.187
+    400556: element.188
+    400558: element.189
+    400560: element.190
+    400562: element.191
+    400564: element.192
+    400566: element.193
+    400568: element.194
+    400570: element.195
+    400572: element.196
+    400574: element.198
+    400576: element.199
+    400578: element.200
+    400580: element.201
+    400582: element.202
+    400584: element.203
+    400586: element.204
+    400588: element.205
+    400590: element.206
+    400592: element.207
+    400594: element.208
+    400596: element.209
+    400598: element.210
+    400600: element.211
+    400602: element.212
+    400604: element.213
+    400606: element.214
+    400608: element.215
+    400610: element.216
+    400612: element.217
+    400614: element.218
+    400616: element.219
+    400618: element.220
+    400620: element.221
+    400622: element.222
+    400624: element.223
+    400626: element.224
+    400628: element.225
+    400630: element.226
+    400632: element.227
+    400634: element.228
+    400636: element.229
+    400638: element.230
+    400640: element.231
+    400642: element.232
+    400644: element.233
+    400646: element.235
+    400648: element.236
+    400650: element.237
+    400652: element.239
+    400654: element.240
+    400656: element.241
+    400658: element.242
+    400660: element.243
+    400662: element.244
+    400664: element.245
+    400666: element.246
+    400668: element.248
+    400670: element.249
+    400672: element.250
+    400674: element.251
+    400676: element.252
+    400678: element.253
+    400680: element.254
+    400682: element.255
+    400684: element.256
+    400686: element.257
+    400688: element.258
+    400690: element.259
+    400692: element.260
+    400694: element.261
+    400696: element.262
+    400698: element.263
+    400700: element.264
+    400702: element.265
+    400704: element.266
+    400706: element.267
+    400708: element.268
+    400710: element.269
+    400712: element.270
+    400714: element.271
+    400716: element.272
+    400718: element.273
+    400720: element.274
+    400722: element.275
+    400724: element.276
+    400726: element.277
+    400728: element.278
+    400730: element.279
+    400732: element.280
+    400734: element.281
+    400736: element.282
+    400738: element.283
+    400740: element.284
+    400742: element.285
+    400744: element.286
+    400746: element.287
+    400748: element.288
+    400750: element.289
+    400752: element.290
+    400754: element.291
+    400756: element.292
+    400758: element.293
+    400760: element.294
+    400762: element.295
+    400764: element.296
+    400766: element.297
+    400768: element.298
+    400770: element.299
+    400772: element.300
+    400774: element.301
+    400776: element.302
+    400778: element.303
+    400780: element.304
+    400782: element.305
+    400784: element.306
+    400786: element.307
+    400788: element.308
+    400790: element.309
+    400792: element.310
+    400794: element.311
+    400796: element.312
+    400798: element.313
+    400800: element.314
+    400802: element.315
+    400804: element.316
+    400806: element.317
+    400808: element.318
+    400810: element.319
+    400812: element.320
+    400814: element.321
+    400816: element.322
+    400818: element.323
+    400820: element.324
+    400822: element.325
+    400824: element.326
+    400826: element.327
+    400828: element.328
+    400830: element.329
+    400832: element.330
+    400834: element.331
+    400836: element.332
+    400838: element.333
+    400840: element.334
+    400842: element.335
+    400844: element.336
+    400846: element.337
+    400848: element.338
+    400850: element.339
+    400852: element.340
+    400854: element.341
+    400856: element.342
+    400858: element.343
+    400860: element.344
+    400862: element.345
+    400864: element.346
+    400866: element.347
+    400868: element.348
+    400870: element.349
+    400872: element.350
+    400874: element.351
+    400876: element.352
+    400878: element.353
+    400880: element.354
+    400882: element.355
+    400884: element.356
+    400886: element.357
+    400888: element.358
+    400890: element.359
+    400892: element.360
+    400894: element.361
+    400896: element.362
+    400898: element.363
+    400900: element.364
+    400902: element.365
+    400904: element.366
+    400906: element.367
+    400908: element.368
+    400910: element.369
+    400912: element.370
+    400914: element.371
+    400916: element.372
+    400918: element.373
+    400920: element.374
+    400922: element.375
+    400924: element.376
+    400926: element.377
+    400928: element.378
+    400930: element.379
+    400932: element.380
+    400934: element.381
+    400936: element.382
+    400938: element.383
+    400940: element.384
+    400942: element.385
+    400944: element.386
+    400946: element.387
+    400948: element.388
+    400950: element.389
+    400952: element.390
+    400954: element.391
+    400956: element.392
+    400958: element.393
+    400960: element.394
+    400962: element.395
+    400964: element.396
+    400966: element.397
+    400968: element.398
+    400970: element.399
+    400972: element.400
+    400974: element.401
+    400976: element.406
+    400978: element.407
+    400980: element.408
+    400982: element.409
+    400984: element.410
+    400986: element.411
+    400988: element.412
+    400990: element.413
+    400992: element.414
+    400994: element.415
+    400996: element.416
+    400998: element.417
+    401000: element.418
+    401002: element.419
+    401004: element.420
+    401006: element.421
+    401008: element.422
+    401010: element.423
+    401012: element.424
+    401014: element.425
+    401016: element.426
+    401018: element.427
+    401020: element.428
+    401022: element.429
+    401024: element.430
+    401026: element.431
+    401028: element.432
+    401030: element.433
+    401032: element.434
+    401034: element.435
+    401036: element.436
+    401038: element.437
+    401040: element.438
+    401042: element.439
+    401044: element.440
+    401046: element.441
+    401048: element.442
+    401050: element.443
+    401052: element.444
+    401054: element.445
+    401056: element.446
+    401058: element.447
+    401060: element.448
+    401062: element.449
+    401064: element.450
+    401066: element.451
+    401068: element.452
+    401070: element.453
+    401072: element.454
+    401074: element.455
+    401076: element.456
+    401078: element.457
+    401080: element.458
+    401082: element.459
+    401084: element.460
+    401086: element.461
+    401088: element.462
+    401090: element.463
+    401092: element.464
+    401094: element.465
+    401096: element.466
+    401098: element.467
+    401100: element.468
+    401102: element.469
+    401104: element.470
+    401106: element.471
+    401108: element.472
+    401110: element.473
+    401112: element.474
+    401114: element.475
+    401116: element.476
+    401118: element.477
+    401120: element.478
+    401122: element.479
+    401124: element.480
+    401126: element.481
+    401128: element.482
+    401130: element.483
+    401132: element.484
+    401134: element.485
+    401136: element.486
+    401138: element.487
+    401140: element.488
+    401142: element.489
+    401144: element.490
+    401146: element.491
+    401148: element.492
+    401150: element.493
+    401152: element.494
+    401154: element.495
+    401156: element.496
+    401158: element.497
+    401160: element.498
+    401162: element.499
+    401164: element.500
+    401166: element.501
+    401168: element.502
+    401170: element.503
+    401172: element.504
+    401174: element.505
+    401176: element.506
+    401178: element.507
+    401180: element.508
+    401182: element.509
+    401184: element.510
+    401186: element.511
+    401188: element.512
+    401190: element.513
+    401192: element.514
+    401194: element.515
+    401196: element.516
+    401198: element.517
+    401200: element.518
+    401202: element.519
+    401204: element.520
+    401206: element.521
+    401208: element.522
+    401210: element.523
+    401212: element.524
+    401214: element.525
+    401216: element.526
+    401218: element.527
+    401220: element.528
+    401222: element.529
+    401224: element.530
+    401226: element.531
+    401228: element.532
+    401230: element.533
+    401232: element.534
+    401234: element.535
+    401236: element.536
+    401238: element.537
+    401240: element.538
+    401242: element.539
+    401244: element.540
+    401246: element.541
+    401248: element.542
+    401250: element.543
+    401252: element.544
+    401254: element.545
+    401256: element.546
+    401258: element.547
+    401260: element.548
+    401262: element.549
+    401264: element.550
+    401266: element.551
+    401268: element.552
+    401270: element.553
+    401272: element.554
+    401274: element.555
+    401276: element.556
+    401278: element.557
+    401280: element.558
+    401282: element.559
+    401284: element.560
+    401286: element.561
+    401288: element.562
+    401290: element.563
+    401292: element.564
+    401294: element.565
+    401296: element.566
+    401298: element.567
+    401300: element.568
+    401302: element.569
+    401304: element.570
+    401306: element.571
+    401308: element.572
+    401310: element.573
+    401312: element.574
+    401314: element.575
+    401316: element.576
+    401318: element.577
+    401320: element.578
+    401322: element.579
+    401324: element.580
+    401326: element.581
+    401328: element.582
+    401330: element.583
+    401332: element.584
+    401334: element.585
+    401336: element.586
+    401338: element.587
+    401340: element.588
+    401342: element.589
+    401344: element.590
+    401346: element.591
+    401348: element.592
+    401350: element.593
+    401352: element.594
+    401354: element.595
+    401356: element.596
+    401358: Engineering Design Centre (Wayne and William White)
+    401360: Engineering Lane
+    401362: Engineering Road
+    401364: Engineering Road.001
+    401366: Engineering Student Center
+    401368: Food, Nutrition and Health Building
+    401370: Forest Sciences Centre
+    401372: Forest Sciences Centre.001
+    401374: Frank E. Buck
+    401376: Frank Forward Building - Metallurgy
+    401378: Fred Kaiser Building
+    401380: Frederic Lasserre Building
+    401382: Frederic Wood Theatre
+    401384: Geography Building
+    401386: Gerald McGavin Building
+    401388: H.R. Macmillan Building
+    401390: Hampton Place
+    401392: Hawthorn Lane
+    401394: Hawthorn Lane.001
+    401396: Hawthorn Lane.002
+    401398: Health Sciences Mall
+    401400: Health Sciences Mall.001
+    401402: Hebb Building
+    401404: Hebb Theater
+    401406: Hennings Building
+    401408: Henry Angus Building
+    401410: High Head Lab
+    401412: Horticulture Building
+    401414: Hospital Lane
+    401416: Hugh Dempster Pavillion
+    401418: Hut O-4
+    401420: "h\u0259m\u2019l\u0259s\u0259m\u2019 House"
+    401422: ICICS X-Wing
+    401424: Institute For Computing, Information And Cognitive Systems / Co
+    401426: Irving K. Barber Learning Centre
+    401428: Jack Bell Building - School Of Social Work
+    401430: Journey
+    401432: Ladner Clock Tower
+    401434: Landscape Architecture Annex
+    401436: Larkin Drive
+    401438: Leon & Thea Koerner University Centre
+    401440: Leonard S. Klinck Building
+    401442: Loading Lane
+    401444: Loading Lane.001
+    401446: Logan Lane
+    401448: M.F.A Studios
+    401450: Macleod Building
+    401452: Macleod Building.001
+    401454: Main Mall
+    401456: Main Mall.001
+    401458: Main Mall.002
+    401460: Main Mall.003
+    401462: Main Mall.004
+    401464: Main Mall.005
+    401466: Main Mall.006
+    401468: Main Mall.007
+    401470: Main Mall.008
+    401472: Main Mall.009
+    401474: Main Mall.010
+    401476: Main Mall.011
+    401478: Main Mall.012
+    401480: Main Mall.013
+    401482: Main Mall.014
+    401484: Main Mall.015
+    401486: Main Mall.016
+    401488: Main Mall.017
+    401490: //RootNode
+    401492: map_10.osm
+    401494: map_10.osm_buildings
+    401496: map_10.osm_highways
+    401498: map_10.osm_vegetation
+    401500: map_11.osm
+    401502: map_11.osm_buildings
+    401504: map_11.osm_highways
+    401506: map_11.osm_vegetation
+    401508: map_12.osm
+    401510: map_12.osm_buildings
+    401512: map_12.osm_highways
+    401514: map_12.osm_vegetation
+    401516: map_7.osm
+    401518: map_7.osm_buildings
+    401520: map_7.osm_forests
+    401522: map_7.osm_highways
+    401524: map_7.osm_vegetation
+    401526: map_7.osm_water
+    401528: map_8.osm
+    401530: map_8.osm_buildings
+    401532: map_8.osm_highways
+    401534: map_8.osm_vegetation
+    401536: map_9.osm_buildings
+    401538: map_9.osm_forests
+    401540: map_9.osm_highways
+    401542: map_9.osm_vegetation
+    401544: Maple House
+    401546: Math Annex
+    401548: Math Building
+    401550: Mathematics Road
+    401552: Mathematics Road.001
+    401554: Mathematics Road.002
+    401556: Memorial Road
+    401558: Memorial Road.001
+    401560: Mercante
+    401562: Meter Station
+    401564: Music Building
+    401566: Neville Scarfe Building
+    401568: Nine On The Park
+    401570: Northwest Marine Drive
+    401572: Old Administration Building
+    401574: Old Auditorium
+    401576: Old Barn Community Centre
+    401578: Old Student Union Building (SUB)
+    401580: Orchard Commons
+    401582: Orchard House
+    401584: Ponderosa Cedar House
+    401586: Ponderosa Oak House
+    401588: Power House
+    401590: Pulp And Paper Research
+    401592: "q\u2019\u0259l\u0259\u03C7\u0259n House"
+    401594: Reflections
+    401596: Robert H. Lee Alumni Centre
+    401598: Somerset Lane
+    401600: Sopron Lane
+    401602: Sopron Lane.001
+    401604: Spruce House
+    401606: Staff And Faculty Housing
+    401608: Stores Road
+    401610: Stores Road Annex
+    401612: Stores Road.001
+    401614: Student Union Boulevard
+    401616: Swing Space Building
+    401618: Technology Enterprise Facility
+    401620: The Nest (New SUB)
+    401622: Theatre-Film Production Building
+    401624: Theatre-Film Production Building - Annex
+    401626: Thunderbird Boulevard
+    401628: Thunderbird Boulevard.001
+    401630: Thunderbird Boulevard.002
+    401632: Thunderbird Boulevard.003
+    401634: Thunderbird Boulevard.004
+    401636: Thunderbird Crescent
+    401638: Thunderbird Crescent.001
+    401640: Thunderbird Crescent.002
+    401642: Thunderbird Crescent.003
+    401644: Thunderbird Crescent.004
+    401646: Thunderbird Crescent.005
+    401648: Thunderbird Crescent.006
+    401650: Triple O's/Trek Express
+    401652: UBC Bus Loop
+    401654: UBC Housing Receiving
+    401656: UBC Housing Receiving.001
+    401658: UBC Tennis Centre
+    401660: University Boulevard
+    401662: University Boulevard.001
+    401664: University Boulevard.002
+    401666: University Boulevard.003
+    401668: University Boulevard.004
+    401670: University Boulevard.005
+    401672: University Boulevard.006
+    401674: University Boulevard.007
+    401676: University Boulevard.008
+    401678: University Boulevard.009
+    401680: University Boulevard.010
+    401682: University Boulevard.011
+    401684: University Boulevard.012
+    401686: University Boulevard.013
+    401688: University Boulevard.014
+    401690: University Boulevard.015
+    401692: University Boulevard.016
+    401694: University Boulevard.017
+    401696: Volkoff Lane
+    401698: Walter C. Koerner Library
+    401700: Walter Gage Road
+    401702: War Memorial Gym
+    401704: Wesbrook Building
+    401706: Wesbrook Crescent
+    401708: Wesbrook Mall
+    401710: Wesbrook Mall.001
+    401712: Wesbrook Mall.002
+    401714: Wesbrook Mall.003
+    401716: Wesbrook Mall.004
+    401718: Wesbrook Mall.005
+    401720: Wesbrook Mall.006
+    401722: Wesbrook Mall.007
+    401724: West Mall
+    401726: West Mall.001
+    401728: West Mall.002
+    401730: West Mall.003
+    401732: West Mall.004
+    401734: Wood Products Laboratory
+    2100000: wall
+    2100002: roof
+    2100004: vegetation
+    2100006: highways
+    2100008: water
+    2100010: forests
+    2300000: A1 Cassiar
+    2300002: A1 Cassiar.001
+    2300004: A2 Monashee
+    2300006: A2 Monashee.001
+    2300008: A2 Monashee.002
+    2300010: A2 Monashee.003
+    2300012: A3 Monashee
+    2300014: A3 Monashee.001
+    2300016: A4 Cassiar
+    2300018: A4 Cassiar.001
+    2300020: Abdul Ladha Science Student Centre
+    2300022: Agricultural Road
+    2300024: Agronomy Road
+    2300026: Agronomy Road.001
+    2300028: Agronomy Road.002
+    2300030: Allard Hall
+    2300032: Anthropology And Sociology Building
+    2300034: Applied Science Lane
+    2300036: Applied Science Lane.001
+    2300038: Applied Science Lane.002
+    2300040: Aquatic Ecosystems Research Laboratory
+    2300042: Arbutus House
+    2300044: Audain Art Center
+    2300046: B.C. Binning Studios
+    2300048: B1 Coast
+    2300050: B1 Coast.001
+    2300052: B2 Selkirk
+    2300054: B2 Selkirk.001
+    2300056: B3 Selkirk
+    2300058: B4 Coast
+    2300060: Barn Day Care
+    2300062: Beaty Biodiversity Centre and Museum
+    2300064: Belkin Art Gallery
+    2300066: Biological Science Road
+    2300068: Biological Sciences
+    2300070: Biological Sciences Road
+    2300072: Bookstore
+    2300074: Brimacombe Building
+    2300076: Brimacombe Building Addition
+    2300078: Buchanan Building Block A
+    2300080: Buchanan Building Block B
+    2300082: Buchanan Building Block B.001
+    2300084: Buchanan Building Block C
+    2300086: Buchanan Building Block D
+    2300088: Buchanan Building Block E
+    2300090: Buchanan Tower
+    2300092: C1 Hazelton
+    2300094: C1 Hazelton.001
+    2300096: C2 Hazelton
+    2300098: Campus & Community Planning 1
+    2300100: Campus Energy Center
+    2300102: CAWP
+    2300104: CAWP.001
+    2300106: Center for Interactive Research on Sustainability (CIRS) Buildi
+    2300108: Central
+    2300110: Centre Of Coal And Mineral Processing
+    2300112: Centre Of Coal And Mineral Processing.001
+    2300114: Chan Centre for the Performing Arts
+    2300116: Chemical and Biological Engineering Building
+    2300118: Chemistry Building
+    2300120: Chemistry Building.001
+    2300122: Chemistry Physics Building
+    2300124: Civil And Mechanical Engineering Building
+    2300126: Civil And Mechanical Lab
+    2300128: Civil And Mechanical Structures Lab
+    2300130: Clean Energy Research Centre
+    2300132: Clean Energy Research Centre.001
+    2300134: Clements Green
+    2300136: College Highroad
+    2300138: Continuing Studies Building
+    2300140: Crescent Road
+    2300142: Crescent Road.001
+    2300144: D.H. Copp Building
+    2300146: David Strangway Building
+    2300148: Dorothy Somerset Studios
+    2300150: Douglas T. Kenny Building
+    2300152: Eagles Drive
+    2300154: Earth & Ocean Sciences - Main
+    2300156: Earth & Ocean Sciences - South
+    2300158: Earth Sciences Building
+    2300160: Earthquake Engineering Research Facility
+    2300162: East Mall
+    2300164: East Mall.001
+    2300166: East Mall.002
+    2300168: East Mall.003
+    2300170: East Mall.004
+    2300172: East Mall.005
+    2300174: East Mall.006
+    2300176: East Mall.007
+    2300178: East Mall.008
+    2300180: East Mall.009
+    2300182: East Mall.010
+    2300184: East Mall.011
+    2300186: Education Library
+    2300188: Education Road
+    2300190: Education Road.001
+    2300192: Education Road.002
+    2300194: Education Road.003
+    2300196: element
+    2300198: element.001
+    2300200: element.002
+    2300202: element.003
+    2300204: element.004
+    2300206: element.005
+    2300208: element.006
+    2300210: element.007
+    2300212: element.008
+    2300214: element.009
+    2300216: element.010
+    2300218: element.011
+    2300220: element.012
+    2300222: element.013
+    2300224: element.014
+    2300226: element.015
+    2300228: element.016
+    2300230: element.017
+    2300232: element.018
+    2300234: element.019
+    2300236: element.020
+    2300238: element.021
+    2300240: element.022
+    2300242: element.023
+    2300244: element.024
+    2300246: element.025
+    2300248: element.026
+    2300250: element.027
+    2300252: element.028
+    2300254: element.029
+    2300256: element.030
+    2300258: element.031
+    2300260: element.032
+    2300262: element.033
+    2300264: element.034
+    2300266: element.035
+    2300268: element.036
+    2300270: element.037
+    2300272: element.038
+    2300274: element.039
+    2300276: element.040
+    2300278: element.041
+    2300280: element.042
+    2300282: element.043
+    2300284: element.044
+    2300286: element.045
+    2300288: element.046
+    2300290: element.047
+    2300292: element.048
+    2300294: element.049
+    2300296: element.050
+    2300298: element.051
+    2300300: element.052
+    2300302: element.053
+    2300304: element.054
+    2300306: element.055
+    2300308: element.056
+    2300310: element.057
+    2300312: element.058
+    2300314: element.059
+    2300316: element.060
+    2300318: element.061
+    2300320: element.062
+    2300322: element.063
+    2300324: element.064
+    2300326: element.065
+    2300328: element.066
+    2300330: element.067
+    2300332: element.068
+    2300334: element.069
+    2300336: element.070
+    2300338: element.071
+    2300340: element.072
+    2300342: element.073
+    2300344: element.074
+    2300346: element.075
+    2300348: element.076
+    2300350: element.077
+    2300352: element.078
+    2300354: element.079
+    2300356: element.080
+    2300358: element.081
+    2300360: element.082
+    2300362: element.083
+    2300364: element.084
+    2300366: element.085
+    2300368: element.086
+    2300370: element.087
+    2300372: element.088
+    2300374: element.089
+    2300376: element.090
+    2300378: element.091
+    2300380: element.092
+    2300382: element.093
+    2300384: element.094
+    2300386: element.095
+    2300388: element.096
+    2300390: element.097
+    2300392: element.098
+    2300394: element.100
+    2300396: element.101
+    2300398: element.102
+    2300400: element.103
+    2300402: element.104
+    2300404: element.105
+    2300406: element.106
+    2300408: element.107
+    2300410: element.108
+    2300412: element.109
+    2300414: element.110
+    2300416: element.111
+    2300418: element.112
+    2300420: element.114
+    2300422: element.115
+    2300424: element.116
+    2300426: element.117
+    2300428: element.118
+    2300430: element.119
+    2300432: element.120
+    2300434: element.121
+    2300436: element.122
+    2300438: element.123
+    2300440: element.124
+    2300442: element.125
+    2300444: element.126
+    2300446: element.127
+    2300448: element.128
+    2300450: element.129
+    2300452: element.130
+    2300454: element.131
+    2300456: element.132
+    2300458: element.133
+    2300460: element.134
+    2300462: element.135
+    2300464: element.136
+    2300466: element.137
+    2300468: element.138
+    2300470: element.141
+    2300472: element.142
+    2300474: element.143
+    2300476: element.144
+    2300478: element.146
+    2300480: element.148
+    2300482: element.149
+    2300484: element.150
+    2300486: element.151
+    2300488: element.152
+    2300490: element.153
+    2300492: element.154
+    2300494: element.156
+    2300496: element.157
+    2300498: element.158
+    2300500: element.159
+    2300502: element.160
+    2300504: element.161
+    2300506: element.162
+    2300508: element.163
+    2300510: element.164
+    2300512: element.165
+    2300514: element.166
+    2300516: element.167
+    2300518: element.168
+    2300520: element.169
+    2300522: element.170
+    2300524: element.171
+    2300526: element.172
+    2300528: element.173
+    2300530: element.174
+    2300532: element.175
+    2300534: element.176
+    2300536: element.178
+    2300538: element.179
+    2300540: element.180
+    2300542: element.181
+    2300544: element.182
+    2300546: element.183
+    2300548: element.184
+    2300550: element.185
+    2300552: element.186
+    2300554: element.187
+    2300556: element.188
+    2300558: element.189
+    2300560: element.190
+    2300562: element.191
+    2300564: element.192
+    2300566: element.193
+    2300568: element.194
+    2300570: element.195
+    2300572: element.196
+    2300574: element.198
+    2300576: element.199
+    2300578: element.200
+    2300580: element.201
+    2300582: element.202
+    2300584: element.203
+    2300586: element.204
+    2300588: element.205
+    2300590: element.206
+    2300592: element.207
+    2300594: element.208
+    2300596: element.209
+    2300598: element.210
+    2300600: element.211
+    2300602: element.212
+    2300604: element.213
+    2300606: element.214
+    2300608: element.215
+    2300610: element.216
+    2300612: element.217
+    2300614: element.218
+    2300616: element.219
+    2300618: element.220
+    2300620: element.221
+    2300622: element.222
+    2300624: element.223
+    2300626: element.224
+    2300628: element.225
+    2300630: element.226
+    2300632: element.227
+    2300634: element.228
+    2300636: element.229
+    2300638: element.230
+    2300640: element.231
+    2300642: element.232
+    2300644: element.233
+    2300646: element.235
+    2300648: element.236
+    2300650: element.237
+    2300652: element.239
+    2300654: element.240
+    2300656: element.241
+    2300658: element.242
+    2300660: element.243
+    2300662: element.244
+    2300664: element.245
+    2300666: element.246
+    2300668: element.248
+    2300670: element.249
+    2300672: element.250
+    2300674: element.251
+    2300676: element.252
+    2300678: element.253
+    2300680: element.254
+    2300682: element.255
+    2300684: element.256
+    2300686: element.257
+    2300688: element.258
+    2300690: element.259
+    2300692: element.260
+    2300694: element.261
+    2300696: element.262
+    2300698: element.263
+    2300700: element.264
+    2300702: element.265
+    2300704: element.266
+    2300706: element.267
+    2300708: element.268
+    2300710: element.269
+    2300712: element.270
+    2300714: element.271
+    2300716: element.272
+    2300718: element.273
+    2300720: element.274
+    2300722: element.275
+    2300724: element.276
+    2300726: element.277
+    2300728: element.278
+    2300730: element.279
+    2300732: element.280
+    2300734: element.281
+    2300736: element.282
+    2300738: element.283
+    2300740: element.284
+    2300742: element.285
+    2300744: element.286
+    2300746: element.287
+    2300748: element.288
+    2300750: element.289
+    2300752: element.290
+    2300754: element.291
+    2300756: element.292
+    2300758: element.293
+    2300760: element.294
+    2300762: element.295
+    2300764: element.296
+    2300766: element.297
+    2300768: element.298
+    2300770: element.299
+    2300772: element.300
+    2300774: element.301
+    2300776: element.302
+    2300778: element.303
+    2300780: element.304
+    2300782: element.305
+    2300784: element.306
+    2300786: element.307
+    2300788: element.308
+    2300790: element.309
+    2300792: element.310
+    2300794: element.311
+    2300796: element.312
+    2300798: element.313
+    2300800: element.314
+    2300802: element.315
+    2300804: element.316
+    2300806: element.317
+    2300808: element.318
+    2300810: element.319
+    2300812: element.320
+    2300814: element.321
+    2300816: element.322
+    2300818: element.323
+    2300820: element.324
+    2300822: element.325
+    2300824: element.326
+    2300826: element.327
+    2300828: element.328
+    2300830: element.329
+    2300832: element.330
+    2300834: element.331
+    2300836: element.332
+    2300838: element.333
+    2300840: element.334
+    2300842: element.335
+    2300844: element.336
+    2300846: element.337
+    2300848: element.338
+    2300850: element.339
+    2300852: element.340
+    2300854: element.341
+    2300856: element.342
+    2300858: element.343
+    2300860: element.344
+    2300862: element.345
+    2300864: element.346
+    2300866: element.347
+    2300868: element.348
+    2300870: element.349
+    2300872: element.350
+    2300874: element.351
+    2300876: element.352
+    2300878: element.353
+    2300880: element.354
+    2300882: element.355
+    2300884: element.356
+    2300886: element.357
+    2300888: element.358
+    2300890: element.359
+    2300892: element.360
+    2300894: element.361
+    2300896: element.362
+    2300898: element.363
+    2300900: element.364
+    2300902: element.365
+    2300904: element.366
+    2300906: element.367
+    2300908: element.368
+    2300910: element.369
+    2300912: element.370
+    2300914: element.371
+    2300916: element.372
+    2300918: element.373
+    2300920: element.374
+    2300922: element.375
+    2300924: element.376
+    2300926: element.377
+    2300928: element.378
+    2300930: element.379
+    2300932: element.380
+    2300934: element.381
+    2300936: element.382
+    2300938: element.383
+    2300940: element.384
+    2300942: element.385
+    2300944: element.386
+    2300946: element.387
+    2300948: element.388
+    2300950: element.389
+    2300952: element.390
+    2300954: element.391
+    2300956: element.392
+    2300958: element.393
+    2300960: element.394
+    2300962: element.395
+    2300964: element.396
+    2300966: element.397
+    2300968: element.398
+    2300970: element.399
+    2300972: element.400
+    2300974: element.401
+    2300976: element.406
+    2300978: element.407
+    2300980: element.408
+    2300982: element.409
+    2300984: element.410
+    2300986: element.411
+    2300988: element.412
+    2300990: element.413
+    2300992: element.414
+    2300994: element.415
+    2300996: element.416
+    2300998: element.417
+    2301000: element.418
+    2301002: element.419
+    2301004: element.420
+    2301006: element.421
+    2301008: element.422
+    2301010: element.423
+    2301012: element.424
+    2301014: element.425
+    2301016: element.426
+    2301018: element.427
+    2301020: element.428
+    2301022: element.429
+    2301024: element.430
+    2301026: element.431
+    2301028: element.432
+    2301030: element.433
+    2301032: element.434
+    2301034: element.435
+    2301036: element.436
+    2301038: element.437
+    2301040: element.438
+    2301042: element.439
+    2301044: element.440
+    2301046: element.441
+    2301048: element.442
+    2301050: element.443
+    2301052: element.444
+    2301054: element.445
+    2301056: element.446
+    2301058: element.447
+    2301060: element.448
+    2301062: element.449
+    2301064: element.450
+    2301066: element.451
+    2301068: element.452
+    2301070: element.453
+    2301072: element.454
+    2301074: element.455
+    2301076: element.456
+    2301078: element.457
+    2301080: element.458
+    2301082: element.459
+    2301084: element.460
+    2301086: element.461
+    2301088: element.462
+    2301090: element.463
+    2301092: element.464
+    2301094: element.465
+    2301096: element.466
+    2301098: element.467
+    2301100: element.468
+    2301102: element.469
+    2301104: element.470
+    2301106: element.471
+    2301108: element.472
+    2301110: element.473
+    2301112: element.474
+    2301114: element.475
+    2301116: element.476
+    2301118: element.477
+    2301120: element.478
+    2301122: element.479
+    2301124: element.480
+    2301126: element.481
+    2301128: element.482
+    2301130: element.483
+    2301132: element.484
+    2301134: element.485
+    2301136: element.486
+    2301138: element.487
+    2301140: element.488
+    2301142: element.489
+    2301144: element.490
+    2301146: element.491
+    2301148: element.492
+    2301150: element.493
+    2301152: element.494
+    2301154: element.495
+    2301156: element.496
+    2301158: element.497
+    2301160: element.498
+    2301162: element.499
+    2301164: element.500
+    2301166: element.501
+    2301168: element.502
+    2301170: element.503
+    2301172: element.504
+    2301174: element.505
+    2301176: element.506
+    2301178: element.507
+    2301180: element.508
+    2301182: element.509
+    2301184: element.510
+    2301186: element.511
+    2301188: element.512
+    2301190: element.513
+    2301192: element.514
+    2301194: element.515
+    2301196: element.516
+    2301198: element.517
+    2301200: element.518
+    2301202: element.519
+    2301204: element.520
+    2301206: element.521
+    2301208: element.522
+    2301210: element.523
+    2301212: element.524
+    2301214: element.525
+    2301216: element.526
+    2301218: element.527
+    2301220: element.528
+    2301222: element.529
+    2301224: element.530
+    2301226: element.531
+    2301228: element.532
+    2301230: element.533
+    2301232: element.534
+    2301234: element.535
+    2301236: element.536
+    2301238: element.537
+    2301240: element.538
+    2301242: element.539
+    2301244: element.540
+    2301246: element.541
+    2301248: element.542
+    2301250: element.543
+    2301252: element.544
+    2301254: element.545
+    2301256: element.546
+    2301258: element.547
+    2301260: element.548
+    2301262: element.549
+    2301264: element.550
+    2301266: element.551
+    2301268: element.552
+    2301270: element.553
+    2301272: element.554
+    2301274: element.555
+    2301276: element.556
+    2301278: element.557
+    2301280: element.558
+    2301282: element.559
+    2301284: element.560
+    2301286: element.561
+    2301288: element.562
+    2301290: element.563
+    2301292: element.564
+    2301294: element.565
+    2301296: element.566
+    2301298: element.567
+    2301300: element.568
+    2301302: element.569
+    2301304: element.570
+    2301306: element.571
+    2301308: element.572
+    2301310: element.573
+    2301312: element.574
+    2301314: element.575
+    2301316: element.576
+    2301318: element.577
+    2301320: element.578
+    2301322: element.579
+    2301324: element.580
+    2301326: element.581
+    2301328: element.582
+    2301330: element.583
+    2301332: element.584
+    2301334: element.585
+    2301336: element.586
+    2301338: element.587
+    2301340: element.588
+    2301342: element.589
+    2301344: element.590
+    2301346: element.591
+    2301348: element.592
+    2301350: element.593
+    2301352: element.594
+    2301354: element.595
+    2301356: element.596
+    2301358: Engineering Design Centre (Wayne and William White)
+    2301360: Engineering Lane
+    2301362: Engineering Road
+    2301364: Engineering Road.001
+    2301366: Engineering Student Center
+    2301368: Food, Nutrition and Health Building
+    2301370: Forest Sciences Centre
+    2301372: Forest Sciences Centre.001
+    2301374: Frank E. Buck
+    2301376: Frank Forward Building - Metallurgy
+    2301378: Fred Kaiser Building
+    2301380: Frederic Lasserre Building
+    2301382: Frederic Wood Theatre
+    2301384: Geography Building
+    2301386: Gerald McGavin Building
+    2301388: H.R. Macmillan Building
+    2301390: Hampton Place
+    2301392: Hawthorn Lane
+    2301394: Hawthorn Lane.001
+    2301396: Hawthorn Lane.002
+    2301398: Health Sciences Mall
+    2301400: Health Sciences Mall.001
+    2301402: Hebb Building
+    2301404: Hebb Theater
+    2301406: Hennings Building
+    2301408: Henry Angus Building
+    2301410: High Head Lab
+    2301412: Horticulture Building
+    2301414: Hospital Lane
+    2301416: Hugh Dempster Pavillion
+    2301418: Hut O-4
+    2301420: "h\u0259m\u2019l\u0259s\u0259m\u2019 House"
+    2301422: ICICS X-Wing
+    2301424: Institute For Computing, Information And Cognitive Systems / Co
+    2301426: Irving K. Barber Learning Centre
+    2301428: Jack Bell Building - School Of Social Work
+    2301430: Journey
+    2301432: Ladner Clock Tower
+    2301434: Landscape Architecture Annex
+    2301436: Larkin Drive
+    2301438: Leon & Thea Koerner University Centre
+    2301440: Leonard S. Klinck Building
+    2301442: Loading Lane
+    2301444: Loading Lane.001
+    2301446: Logan Lane
+    2301448: M.F.A Studios
+    2301450: Macleod Building
+    2301452: Macleod Building.001
+    2301454: Main Mall
+    2301456: Main Mall.001
+    2301458: Main Mall.002
+    2301460: Main Mall.003
+    2301462: Main Mall.004
+    2301464: Main Mall.005
+    2301466: Main Mall.006
+    2301468: Main Mall.007
+    2301470: Main Mall.008
+    2301472: Main Mall.009
+    2301474: Main Mall.010
+    2301476: Main Mall.011
+    2301478: Main Mall.012
+    2301480: Main Mall.013
+    2301482: Main Mall.014
+    2301484: Main Mall.015
+    2301486: Main Mall.016
+    2301488: Main Mall.017
+    2301490: Maple House
+    2301492: Math Annex
+    2301494: Math Building
+    2301496: Mathematics Road
+    2301498: Mathematics Road.001
+    2301500: Mathematics Road.002
+    2301502: Memorial Road
+    2301504: Memorial Road.001
+    2301506: Mercante
+    2301508: Meter Station
+    2301510: Music Building
+    2301512: Neville Scarfe Building
+    2301514: Nine On The Park
+    2301516: Northwest Marine Drive
+    2301518: Old Administration Building
+    2301520: Old Auditorium
+    2301522: Old Barn Community Centre
+    2301524: Old Student Union Building (SUB)
+    2301526: Orchard Commons
+    2301528: Orchard House
+    2301530: Ponderosa Cedar House
+    2301532: Ponderosa Oak House
+    2301534: Power House
+    2301536: Pulp And Paper Research
+    2301538: "q\u2019\u0259l\u0259\u03C7\u0259n House"
+    2301540: Reflections
+    2301542: Robert H. Lee Alumni Centre
+    2301544: Somerset Lane
+    2301546: Sopron Lane
+    2301548: Sopron Lane.001
+    2301550: Spruce House
+    2301552: Staff And Faculty Housing
+    2301554: Stores Road
+    2301556: Stores Road Annex
+    2301558: Stores Road.001
+    2301560: Student Union Boulevard
+    2301562: Swing Space Building
+    2301564: Technology Enterprise Facility
+    2301566: The Nest (New SUB)
+    2301568: Theatre-Film Production Building
+    2301570: Theatre-Film Production Building - Annex
+    2301572: Thunderbird Boulevard
+    2301574: Thunderbird Boulevard.001
+    2301576: Thunderbird Boulevard.002
+    2301578: Thunderbird Boulevard.003
+    2301580: Thunderbird Boulevard.004
+    2301582: Thunderbird Crescent
+    2301584: Thunderbird Crescent.001
+    2301586: Thunderbird Crescent.002
+    2301588: Thunderbird Crescent.003
+    2301590: Thunderbird Crescent.004
+    2301592: Thunderbird Crescent.005
+    2301594: Thunderbird Crescent.006
+    2301596: Triple O's/Trek Express
+    2301598: UBC Bus Loop
+    2301600: UBC Housing Receiving
+    2301602: UBC Housing Receiving.001
+    2301604: UBC Tennis Centre
+    2301606: University Boulevard
+    2301608: University Boulevard.001
+    2301610: University Boulevard.002
+    2301612: University Boulevard.003
+    2301614: University Boulevard.004
+    2301616: University Boulevard.005
+    2301618: University Boulevard.006
+    2301620: University Boulevard.007
+    2301622: University Boulevard.008
+    2301624: University Boulevard.009
+    2301626: University Boulevard.010
+    2301628: University Boulevard.011
+    2301630: University Boulevard.012
+    2301632: University Boulevard.013
+    2301634: University Boulevard.014
+    2301636: University Boulevard.015
+    2301638: University Boulevard.016
+    2301640: University Boulevard.017
+    2301642: Volkoff Lane
+    2301644: Walter C. Koerner Library
+    2301646: Walter Gage Road
+    2301648: War Memorial Gym
+    2301650: Wesbrook Building
+    2301652: Wesbrook Crescent
+    2301654: Wesbrook Mall
+    2301656: Wesbrook Mall.001
+    2301658: Wesbrook Mall.002
+    2301660: Wesbrook Mall.003
+    2301662: Wesbrook Mall.004
+    2301664: Wesbrook Mall.005
+    2301666: Wesbrook Mall.006
+    2301668: Wesbrook Mall.007
+    2301670: West Mall
+    2301672: West Mall.001
+    2301674: West Mall.002
+    2301676: West Mall.003
+    2301678: West Mall.004
+    2301680: Wood Products Laboratory
+    3300000: A1 Cassiar
+    3300002: A1 Cassiar.001
+    3300004: A2 Monashee
+    3300006: A2 Monashee.001
+    3300008: A2 Monashee.002
+    3300010: A2 Monashee.003
+    3300012: A3 Monashee
+    3300014: A3 Monashee.001
+    3300016: A4 Cassiar
+    3300018: A4 Cassiar.001
+    3300020: Abdul Ladha Science Student Centre
+    3300022: Agricultural Road
+    3300024: Agronomy Road
+    3300026: Agronomy Road.001
+    3300028: Agronomy Road.002
+    3300030: Allard Hall
+    3300032: Anthropology And Sociology Building
+    3300034: Applied Science Lane
+    3300036: Applied Science Lane.001
+    3300038: Applied Science Lane.002
+    3300040: Aquatic Ecosystems Research Laboratory
+    3300042: Arbutus House
+    3300044: Audain Art Center
+    3300046: B.C. Binning Studios
+    3300048: B1 Coast
+    3300050: B1 Coast.001
+    3300052: B2 Selkirk
+    3300054: B2 Selkirk.001
+    3300056: B3 Selkirk
+    3300058: B4 Coast
+    3300060: Barn Day Care
+    3300062: Beaty Biodiversity Centre and Museum
+    3300064: Belkin Art Gallery
+    3300066: Biological Science Road
+    3300068: Biological Sciences
+    3300070: Biological Sciences Road
+    3300072: Bookstore
+    3300074: Brimacombe Building
+    3300076: Brimacombe Building Addition
+    3300078: Buchanan Building Block A
+    3300080: Buchanan Building Block B
+    3300082: Buchanan Building Block B.001
+    3300084: Buchanan Building Block C
+    3300086: Buchanan Building Block D
+    3300088: Buchanan Building Block E
+    3300090: Buchanan Tower
+    3300092: C1 Hazelton
+    3300094: C1 Hazelton.001
+    3300096: C2 Hazelton
+    3300098: Campus & Community Planning 1
+    3300100: Campus Energy Center
+    3300102: CAWP
+    3300104: CAWP.001
+    3300106: Center for Interactive Research on Sustainability (CIRS) Buildi
+    3300108: Central
+    3300110: Centre Of Coal And Mineral Processing
+    3300112: Centre Of Coal And Mineral Processing.001
+    3300114: Chan Centre for the Performing Arts
+    3300116: Chemical and Biological Engineering Building
+    3300118: Chemistry Building
+    3300120: Chemistry Building.001
+    3300122: Chemistry Physics Building
+    3300124: Civil And Mechanical Engineering Building
+    3300126: Civil And Mechanical Lab
+    3300128: Civil And Mechanical Structures Lab
+    3300130: Clean Energy Research Centre
+    3300132: Clean Energy Research Centre.001
+    3300134: Clements Green
+    3300136: College Highroad
+    3300138: Continuing Studies Building
+    3300140: Crescent Road
+    3300142: Crescent Road.001
+    3300144: D.H. Copp Building
+    3300146: David Strangway Building
+    3300148: Dorothy Somerset Studios
+    3300150: Douglas T. Kenny Building
+    3300152: Eagles Drive
+    3300154: Earth & Ocean Sciences - Main
+    3300156: Earth & Ocean Sciences - South
+    3300158: Earth Sciences Building
+    3300160: Earthquake Engineering Research Facility
+    3300162: East Mall
+    3300164: East Mall.001
+    3300166: East Mall.002
+    3300168: East Mall.003
+    3300170: East Mall.004
+    3300172: East Mall.005
+    3300174: East Mall.006
+    3300176: East Mall.007
+    3300178: East Mall.008
+    3300180: East Mall.009
+    3300182: East Mall.010
+    3300184: East Mall.011
+    3300186: Education Library
+    3300188: Education Road
+    3300190: Education Road.001
+    3300192: Education Road.002
+    3300194: Education Road.003
+    3300196: element
+    3300198: element.001
+    3300200: element.002
+    3300202: element.003
+    3300204: element.004
+    3300206: element.005
+    3300208: element.006
+    3300210: element.007
+    3300212: element.008
+    3300214: element.009
+    3300216: element.010
+    3300218: element.011
+    3300220: element.012
+    3300222: element.013
+    3300224: element.014
+    3300226: element.015
+    3300228: element.016
+    3300230: element.017
+    3300232: element.018
+    3300234: element.019
+    3300236: element.020
+    3300238: element.021
+    3300240: element.022
+    3300242: element.023
+    3300244: element.024
+    3300246: element.025
+    3300248: element.026
+    3300250: element.027
+    3300252: element.028
+    3300254: element.029
+    3300256: element.030
+    3300258: element.031
+    3300260: element.032
+    3300262: element.033
+    3300264: element.034
+    3300266: element.035
+    3300268: element.036
+    3300270: element.037
+    3300272: element.038
+    3300274: element.039
+    3300276: element.040
+    3300278: element.041
+    3300280: element.042
+    3300282: element.043
+    3300284: element.044
+    3300286: element.045
+    3300288: element.046
+    3300290: element.047
+    3300292: element.048
+    3300294: element.049
+    3300296: element.050
+    3300298: element.051
+    3300300: element.052
+    3300302: element.053
+    3300304: element.054
+    3300306: element.055
+    3300308: element.056
+    3300310: element.057
+    3300312: element.058
+    3300314: element.059
+    3300316: element.060
+    3300318: element.061
+    3300320: element.062
+    3300322: element.063
+    3300324: element.064
+    3300326: element.065
+    3300328: element.066
+    3300330: element.067
+    3300332: element.068
+    3300334: element.069
+    3300336: element.070
+    3300338: element.071
+    3300340: element.072
+    3300342: element.073
+    3300344: element.074
+    3300346: element.075
+    3300348: element.076
+    3300350: element.077
+    3300352: element.078
+    3300354: element.079
+    3300356: element.080
+    3300358: element.081
+    3300360: element.082
+    3300362: element.083
+    3300364: element.084
+    3300366: element.085
+    3300368: element.086
+    3300370: element.087
+    3300372: element.088
+    3300374: element.089
+    3300376: element.090
+    3300378: element.091
+    3300380: element.092
+    3300382: element.093
+    3300384: element.094
+    3300386: element.095
+    3300388: element.096
+    3300390: element.097
+    3300392: element.098
+    3300394: element.100
+    3300396: element.101
+    3300398: element.102
+    3300400: element.103
+    3300402: element.104
+    3300404: element.105
+    3300406: element.106
+    3300408: element.107
+    3300410: element.108
+    3300412: element.109
+    3300414: element.110
+    3300416: element.111
+    3300418: element.112
+    3300420: element.114
+    3300422: element.115
+    3300424: element.116
+    3300426: element.117
+    3300428: element.118
+    3300430: element.119
+    3300432: element.120
+    3300434: element.121
+    3300436: element.122
+    3300438: element.123
+    3300440: element.124
+    3300442: element.125
+    3300444: element.126
+    3300446: element.127
+    3300448: element.128
+    3300450: element.129
+    3300452: element.130
+    3300454: element.131
+    3300456: element.132
+    3300458: element.133
+    3300460: element.134
+    3300462: element.135
+    3300464: element.136
+    3300466: element.137
+    3300468: element.138
+    3300470: element.141
+    3300472: element.142
+    3300474: element.143
+    3300476: element.144
+    3300478: element.146
+    3300480: element.148
+    3300482: element.149
+    3300484: element.150
+    3300486: element.151
+    3300488: element.152
+    3300490: element.153
+    3300492: element.154
+    3300494: element.156
+    3300496: element.157
+    3300498: element.158
+    3300500: element.159
+    3300502: element.160
+    3300504: element.161
+    3300506: element.162
+    3300508: element.163
+    3300510: element.164
+    3300512: element.165
+    3300514: element.166
+    3300516: element.167
+    3300518: element.168
+    3300520: element.169
+    3300522: element.170
+    3300524: element.171
+    3300526: element.172
+    3300528: element.173
+    3300530: element.174
+    3300532: element.175
+    3300534: element.176
+    3300536: element.178
+    3300538: element.179
+    3300540: element.180
+    3300542: element.181
+    3300544: element.182
+    3300546: element.183
+    3300548: element.184
+    3300550: element.185
+    3300552: element.186
+    3300554: element.187
+    3300556: element.188
+    3300558: element.189
+    3300560: element.190
+    3300562: element.191
+    3300564: element.192
+    3300566: element.193
+    3300568: element.194
+    3300570: element.195
+    3300572: element.196
+    3300574: element.198
+    3300576: element.199
+    3300578: element.200
+    3300580: element.201
+    3300582: element.202
+    3300584: element.203
+    3300586: element.204
+    3300588: element.205
+    3300590: element.206
+    3300592: element.207
+    3300594: element.208
+    3300596: element.209
+    3300598: element.210
+    3300600: element.211
+    3300602: element.212
+    3300604: element.213
+    3300606: element.214
+    3300608: element.215
+    3300610: element.216
+    3300612: element.217
+    3300614: element.218
+    3300616: element.219
+    3300618: element.220
+    3300620: element.221
+    3300622: element.222
+    3300624: element.223
+    3300626: element.224
+    3300628: element.225
+    3300630: element.226
+    3300632: element.227
+    3300634: element.228
+    3300636: element.229
+    3300638: element.230
+    3300640: element.231
+    3300642: element.232
+    3300644: element.233
+    3300646: element.235
+    3300648: element.236
+    3300650: element.237
+    3300652: element.239
+    3300654: element.240
+    3300656: element.241
+    3300658: element.242
+    3300660: element.243
+    3300662: element.244
+    3300664: element.245
+    3300666: element.246
+    3300668: element.248
+    3300670: element.249
+    3300672: element.250
+    3300674: element.251
+    3300676: element.252
+    3300678: element.253
+    3300680: element.254
+    3300682: element.255
+    3300684: element.256
+    3300686: element.257
+    3300688: element.258
+    3300690: element.259
+    3300692: element.260
+    3300694: element.261
+    3300696: element.262
+    3300698: element.263
+    3300700: element.264
+    3300702: element.265
+    3300704: element.266
+    3300706: element.267
+    3300708: element.268
+    3300710: element.269
+    3300712: element.270
+    3300714: element.271
+    3300716: element.272
+    3300718: element.273
+    3300720: element.274
+    3300722: element.275
+    3300724: element.276
+    3300726: element.277
+    3300728: element.278
+    3300730: element.279
+    3300732: element.280
+    3300734: element.281
+    3300736: element.282
+    3300738: element.283
+    3300740: element.284
+    3300742: element.285
+    3300744: element.286
+    3300746: element.287
+    3300748: element.288
+    3300750: element.289
+    3300752: element.290
+    3300754: element.291
+    3300756: element.292
+    3300758: element.293
+    3300760: element.294
+    3300762: element.295
+    3300764: element.296
+    3300766: element.297
+    3300768: element.298
+    3300770: element.299
+    3300772: element.300
+    3300774: element.301
+    3300776: element.302
+    3300778: element.303
+    3300780: element.304
+    3300782: element.305
+    3300784: element.306
+    3300786: element.307
+    3300788: element.308
+    3300790: element.309
+    3300792: element.310
+    3300794: element.311
+    3300796: element.312
+    3300798: element.313
+    3300800: element.314
+    3300802: element.315
+    3300804: element.316
+    3300806: element.317
+    3300808: element.318
+    3300810: element.319
+    3300812: element.320
+    3300814: element.321
+    3300816: element.322
+    3300818: element.323
+    3300820: element.324
+    3300822: element.325
+    3300824: element.326
+    3300826: element.327
+    3300828: element.328
+    3300830: element.329
+    3300832: element.330
+    3300834: element.331
+    3300836: element.332
+    3300838: element.333
+    3300840: element.334
+    3300842: element.335
+    3300844: element.336
+    3300846: element.337
+    3300848: element.338
+    3300850: element.339
+    3300852: element.340
+    3300854: element.341
+    3300856: element.342
+    3300858: element.343
+    3300860: element.344
+    3300862: element.345
+    3300864: element.346
+    3300866: element.347
+    3300868: element.348
+    3300870: element.349
+    3300872: element.350
+    3300874: element.351
+    3300876: element.352
+    3300878: element.353
+    3300880: element.354
+    3300882: element.355
+    3300884: element.356
+    3300886: element.357
+    3300888: element.358
+    3300890: element.359
+    3300892: element.360
+    3300894: element.361
+    3300896: element.362
+    3300898: element.363
+    3300900: element.364
+    3300902: element.365
+    3300904: element.366
+    3300906: element.367
+    3300908: element.368
+    3300910: element.369
+    3300912: element.370
+    3300914: element.371
+    3300916: element.372
+    3300918: element.373
+    3300920: element.374
+    3300922: element.375
+    3300924: element.376
+    3300926: element.377
+    3300928: element.378
+    3300930: element.379
+    3300932: element.380
+    3300934: element.381
+    3300936: element.382
+    3300938: element.383
+    3300940: element.384
+    3300942: element.385
+    3300944: element.386
+    3300946: element.387
+    3300948: element.388
+    3300950: element.389
+    3300952: element.390
+    3300954: element.391
+    3300956: element.392
+    3300958: element.393
+    3300960: element.394
+    3300962: element.395
+    3300964: element.396
+    3300966: element.397
+    3300968: element.398
+    3300970: element.399
+    3300972: element.400
+    3300974: element.401
+    3300976: element.406
+    3300978: element.407
+    3300980: element.408
+    3300982: element.409
+    3300984: element.410
+    3300986: element.411
+    3300988: element.412
+    3300990: element.413
+    3300992: element.414
+    3300994: element.415
+    3300996: element.416
+    3300998: element.417
+    3301000: element.418
+    3301002: element.419
+    3301004: element.420
+    3301006: element.421
+    3301008: element.422
+    3301010: element.423
+    3301012: element.424
+    3301014: element.425
+    3301016: element.426
+    3301018: element.427
+    3301020: element.428
+    3301022: element.429
+    3301024: element.430
+    3301026: element.431
+    3301028: element.432
+    3301030: element.433
+    3301032: element.434
+    3301034: element.435
+    3301036: element.436
+    3301038: element.437
+    3301040: element.438
+    3301042: element.439
+    3301044: element.440
+    3301046: element.441
+    3301048: element.442
+    3301050: element.443
+    3301052: element.444
+    3301054: element.445
+    3301056: element.446
+    3301058: element.447
+    3301060: element.448
+    3301062: element.449
+    3301064: element.450
+    3301066: element.451
+    3301068: element.452
+    3301070: element.453
+    3301072: element.454
+    3301074: element.455
+    3301076: element.456
+    3301078: element.457
+    3301080: element.458
+    3301082: element.459
+    3301084: element.460
+    3301086: element.461
+    3301088: element.462
+    3301090: element.463
+    3301092: element.464
+    3301094: element.465
+    3301096: element.466
+    3301098: element.467
+    3301100: element.468
+    3301102: element.469
+    3301104: element.470
+    3301106: element.471
+    3301108: element.472
+    3301110: element.473
+    3301112: element.474
+    3301114: element.475
+    3301116: element.476
+    3301118: element.477
+    3301120: element.478
+    3301122: element.479
+    3301124: element.480
+    3301126: element.481
+    3301128: element.482
+    3301130: element.483
+    3301132: element.484
+    3301134: element.485
+    3301136: element.486
+    3301138: element.487
+    3301140: element.488
+    3301142: element.489
+    3301144: element.490
+    3301146: element.491
+    3301148: element.492
+    3301150: element.493
+    3301152: element.494
+    3301154: element.495
+    3301156: element.496
+    3301158: element.497
+    3301160: element.498
+    3301162: element.499
+    3301164: element.500
+    3301166: element.501
+    3301168: element.502
+    3301170: element.503
+    3301172: element.504
+    3301174: element.505
+    3301176: element.506
+    3301178: element.507
+    3301180: element.508
+    3301182: element.509
+    3301184: element.510
+    3301186: element.511
+    3301188: element.512
+    3301190: element.513
+    3301192: element.514
+    3301194: element.515
+    3301196: element.516
+    3301198: element.517
+    3301200: element.518
+    3301202: element.519
+    3301204: element.520
+    3301206: element.521
+    3301208: element.522
+    3301210: element.523
+    3301212: element.524
+    3301214: element.525
+    3301216: element.526
+    3301218: element.527
+    3301220: element.528
+    3301222: element.529
+    3301224: element.530
+    3301226: element.531
+    3301228: element.532
+    3301230: element.533
+    3301232: element.534
+    3301234: element.535
+    3301236: element.536
+    3301238: element.537
+    3301240: element.538
+    3301242: element.539
+    3301244: element.540
+    3301246: element.541
+    3301248: element.542
+    3301250: element.543
+    3301252: element.544
+    3301254: element.545
+    3301256: element.546
+    3301258: element.547
+    3301260: element.548
+    3301262: element.549
+    3301264: element.550
+    3301266: element.551
+    3301268: element.552
+    3301270: element.553
+    3301272: element.554
+    3301274: element.555
+    3301276: element.556
+    3301278: element.557
+    3301280: element.558
+    3301282: element.559
+    3301284: element.560
+    3301286: element.561
+    3301288: element.562
+    3301290: element.563
+    3301292: element.564
+    3301294: element.565
+    3301296: element.566
+    3301298: element.567
+    3301300: element.568
+    3301302: element.569
+    3301304: element.570
+    3301306: element.571
+    3301308: element.572
+    3301310: element.573
+    3301312: element.574
+    3301314: element.575
+    3301316: element.576
+    3301318: element.577
+    3301320: element.578
+    3301322: element.579
+    3301324: element.580
+    3301326: element.581
+    3301328: element.582
+    3301330: element.583
+    3301332: element.584
+    3301334: element.585
+    3301336: element.586
+    3301338: element.587
+    3301340: element.588
+    3301342: element.589
+    3301344: element.590
+    3301346: element.591
+    3301348: element.592
+    3301350: element.593
+    3301352: element.594
+    3301354: element.595
+    3301356: element.596
+    3301358: Engineering Design Centre (Wayne and William White)
+    3301360: Engineering Lane
+    3301362: Engineering Road
+    3301364: Engineering Road.001
+    3301366: Engineering Student Center
+    3301368: Food, Nutrition and Health Building
+    3301370: Forest Sciences Centre
+    3301372: Forest Sciences Centre.001
+    3301374: Frank E. Buck
+    3301376: Frank Forward Building - Metallurgy
+    3301378: Fred Kaiser Building
+    3301380: Frederic Lasserre Building
+    3301382: Frederic Wood Theatre
+    3301384: Geography Building
+    3301386: Gerald McGavin Building
+    3301388: H.R. Macmillan Building
+    3301390: Hampton Place
+    3301392: Hawthorn Lane
+    3301394: Hawthorn Lane.001
+    3301396: Hawthorn Lane.002
+    3301398: Health Sciences Mall
+    3301400: Health Sciences Mall.001
+    3301402: Hebb Building
+    3301404: Hebb Theater
+    3301406: Hennings Building
+    3301408: Henry Angus Building
+    3301410: High Head Lab
+    3301412: Horticulture Building
+    3301414: Hospital Lane
+    3301416: Hugh Dempster Pavillion
+    3301418: Hut O-4
+    3301420: "h\u0259m\u2019l\u0259s\u0259m\u2019 House"
+    3301422: ICICS X-Wing
+    3301424: Institute For Computing, Information And Cognitive Systems / Co
+    3301426: Irving K. Barber Learning Centre
+    3301428: Jack Bell Building - School Of Social Work
+    3301430: Journey
+    3301432: Ladner Clock Tower
+    3301434: Landscape Architecture Annex
+    3301436: Larkin Drive
+    3301438: Leon & Thea Koerner University Centre
+    3301440: Leonard S. Klinck Building
+    3301442: Loading Lane
+    3301444: Loading Lane.001
+    3301446: Logan Lane
+    3301448: M.F.A Studios
+    3301450: Macleod Building
+    3301452: Macleod Building.001
+    3301454: Main Mall
+    3301456: Main Mall.001
+    3301458: Main Mall.002
+    3301460: Main Mall.003
+    3301462: Main Mall.004
+    3301464: Main Mall.005
+    3301466: Main Mall.006
+    3301468: Main Mall.007
+    3301470: Main Mall.008
+    3301472: Main Mall.009
+    3301474: Main Mall.010
+    3301476: Main Mall.011
+    3301478: Main Mall.012
+    3301480: Main Mall.013
+    3301482: Main Mall.014
+    3301484: Main Mall.015
+    3301486: Main Mall.016
+    3301488: Main Mall.017
+    3301490: Maple House
+    3301492: Math Annex
+    3301494: Math Building
+    3301496: Mathematics Road
+    3301498: Mathematics Road.001
+    3301500: Mathematics Road.002
+    3301502: Memorial Road
+    3301504: Memorial Road.001
+    3301506: Mercante
+    3301508: Meter Station
+    3301510: Music Building
+    3301512: Neville Scarfe Building
+    3301514: Nine On The Park
+    3301516: Northwest Marine Drive
+    3301518: Old Administration Building
+    3301520: Old Auditorium
+    3301522: Old Barn Community Centre
+    3301524: Old Student Union Building (SUB)
+    3301526: Orchard Commons
+    3301528: Orchard House
+    3301530: Ponderosa Cedar House
+    3301532: Ponderosa Oak House
+    3301534: Power House
+    3301536: Pulp And Paper Research
+    3301538: "q\u2019\u0259l\u0259\u03C7\u0259n House"
+    3301540: Reflections
+    3301542: Robert H. Lee Alumni Centre
+    3301544: Somerset Lane
+    3301546: Sopron Lane
+    3301548: Sopron Lane.001
+    3301550: Spruce House
+    3301552: Staff And Faculty Housing
+    3301554: Stores Road
+    3301556: Stores Road Annex
+    3301558: Stores Road.001
+    3301560: Student Union Boulevard
+    3301562: Swing Space Building
+    3301564: Technology Enterprise Facility
+    3301566: The Nest (New SUB)
+    3301568: Theatre-Film Production Building
+    3301570: Theatre-Film Production Building - Annex
+    3301572: Thunderbird Boulevard
+    3301574: Thunderbird Boulevard.001
+    3301576: Thunderbird Boulevard.002
+    3301578: Thunderbird Boulevard.003
+    3301580: Thunderbird Boulevard.004
+    3301582: Thunderbird Crescent
+    3301584: Thunderbird Crescent.001
+    3301586: Thunderbird Crescent.002
+    3301588: Thunderbird Crescent.003
+    3301590: Thunderbird Crescent.004
+    3301592: Thunderbird Crescent.005
+    3301594: Thunderbird Crescent.006
+    3301596: Triple O's/Trek Express
+    3301598: UBC Bus Loop
+    3301600: UBC Housing Receiving
+    3301602: UBC Housing Receiving.001
+    3301604: UBC Tennis Centre
+    3301606: University Boulevard
+    3301608: University Boulevard.001
+    3301610: University Boulevard.002
+    3301612: University Boulevard.003
+    3301614: University Boulevard.004
+    3301616: University Boulevard.005
+    3301618: University Boulevard.006
+    3301620: University Boulevard.007
+    3301622: University Boulevard.008
+    3301624: University Boulevard.009
+    3301626: University Boulevard.010
+    3301628: University Boulevard.011
+    3301630: University Boulevard.012
+    3301632: University Boulevard.013
+    3301634: University Boulevard.014
+    3301636: University Boulevard.015
+    3301638: University Boulevard.016
+    3301640: University Boulevard.017
+    3301642: Volkoff Lane
+    3301644: Walter C. Koerner Library
+    3301646: Walter Gage Road
+    3301648: War Memorial Gym
+    3301650: Wesbrook Building
+    3301652: Wesbrook Crescent
+    3301654: Wesbrook Mall
+    3301656: Wesbrook Mall.001
+    3301658: Wesbrook Mall.002
+    3301660: Wesbrook Mall.003
+    3301662: Wesbrook Mall.004
+    3301664: Wesbrook Mall.005
+    3301666: Wesbrook Mall.006
+    3301668: Wesbrook Mall.007
+    3301670: West Mall
+    3301672: West Mall.001
+    3301674: West Mall.002
+    3301676: West Mall.003
+    3301678: West Mall.004
+    3301680: Wood Products Laboratory
+    4300000: Irving K. Barber Learning Centre
+    4300002: Buchanan Building Block A
+    4300004: Buchanan Building Block C
+    4300006: Buchanan Building Block D
+    4300008: Buchanan Building Block E
+    4300010: Buchanan Tower
+    4300012: Frederic Wood Theatre
+    4300014: Belkin Art Gallery
+    4300016: Music Building
+    4300018: Frederic Lasserre Building
+    4300020: Old Administration Building
+    4300022: Buchanan Building Block B
+    4300024: Buchanan Building Block B.001
+    4300026: Leon & Thea Koerner University Centre
+    4300028: Allard Hall
+    4300030: Ladner Clock Tower
+    4300032: Chan Centre for the Performing Arts
+    4300034: Anthropology And Sociology Building
+    4300036: element
+    4300038: element.004
+    4300040: element.010
+    4300042: element.014
+    4300044: element.017
+    4300046: element.020
+    4300048: element.024
+    4300050: element.026
+    4300052: element.032
+    4300054: element.036
+    4300056: element.041
+    4300058: element.042
+    4300060: element.043
+    4300062: element.051
+    4300064: element.054
+    4300066: element.055
+    4300068: element.057
+    4300070: element.067
+    4300072: element.068
+    4300074: element.073
+    4300076: element.087
+    4300078: element.089
+    4300080: element.093
+    4300082: element.001
+    4300084: element.002
+    4300086: element.003
+    4300088: element.005
+    4300090: element.006
+    4300092: element.007
+    4300094: element.008
+    4300096: element.009
+    4300098: element.011
+    4300100: element.012
+    4300102: element.013
+    4300104: element.015
+    4300106: Walter Gage Road
+    4300108: element.016
+    4300110: element.018
+    4300112: Somerset Lane
+    4300114: element.019
+    4300116: element.021
+    4300118: element.022
+    4300120: element.023
+    4300122: element.025
+    4300124: element.027
+    4300126: element.028
+    4300128: element.029
+    4300130: element.030
+    4300132: element.031
+    4300134: element.033
+    4300136: element.034
+    4300138: element.035
+    4300140: Memorial Road
+    4300142: Main Mall
+    4300144: element.038
+    4300146: element.039
+    4300148: element.040
+    4300150: element.044
+    4300152: element.045
+    4300154: element.046
+    4300156: East Mall
+    4300158: element.047
+    4300160: element.048
+    4300162: element.049
+    4300164: element.050
+    4300166: element.052
+    4300168: element.053
+    4300170: Main Mall.001
+    4300172: element.056
+    4300174: element.058
+    4300176: element.059
+    4300178: element.060
+    4300180: element.061
+    4300182: element.062
+    4300184: element.063
+    4300186: element.064
+    4300188: Main Mall.002
+    4300190: element.065
+    4300192: element.066
+    4300194: element.069
+    4300196: Memorial Road.001
+    4300198: element.070
+    4300200: element.071
+    4300202: element.072
+    4300204: element.074
+    4300206: East Mall.001
+    4300208: element.075
+    4300210: element.076
+    4300212: element.077
+    4300214: element.078
+    4300216: element.079
+    4300218: element.080
+    4300220: element.081
+    4300222: Main Mall.003
+    4300224: element.082
+    4300226: element.083
+    4300228: Crescent Road
+    4300230: Crescent Road.001
+    4300232: element.084
+    4300234: element.085
+    4300236: element.086
+    4300238: Mathematics Road
+    4300240: element.088
+    4300242: element.090
+    4300244: Main Mall.004
+    4300246: element.091
+    4300248: element.092
+    4300250: element.094
+    4300252: Northwest Marine Drive
+    4300254: element.095
+    4300256: element.096
+    4300258: element.097
+    4300260: Frank E. Buck
+    4300262: element.037
+    4300264: Walter C. Koerner Library
+    4300266: Math Annex
+    4300268: Abdul Ladha Science Student Centre
+    4300270: element.098
+    4300272: Geography Building
+    4300274: Math Building
+    4300276: Old Auditorium
+    4300278: Henry Angus Building
+    4300280: Triple O's/Trek Express
+    4300282: Chemistry Physics Building
+    4300284: Hebb Theater
+    4300286: Hebb Building
+    4300288: Chemistry Building
+    4300290: Chemistry Building.001
+    4300292: Hennings Building
+    4300294: Bookstore
+    4300296: Neville Scarfe Building
+    4300298: element.100
+    4300300: element.101
+    4300302: element.102
+    4300304: element.103
+    4300306: element.104
+    4300308: element.105
+    4300310: element.106
+    4300312: element.107
+    4300314: element.108
+    4300316: element.109
+    4300318: element.110
+    4300320: Dorothy Somerset Studios
+    4300322: Leonard S. Klinck Building
+    4300324: Meter Station
+    4300326: Power House
+    4300328: B.C. Binning Studios
+    4300330: Jack Bell Building - School Of Social Work
+    4300332: Audain Art Center
+    4300334: Ponderosa Cedar House
+    4300336: Ponderosa Oak House
+    4300338: Biological Sciences
+    4300340: element.111
+    4300342: element.116
+    4300344: element.117
+    4300346: element.118
+    4300348: element.119
+    4300350: element.121
+    4300352: element.123
+    4300354: element.125
+    4300356: element.153
+    4300358: element.156
+    4300360: element.160
+    4300362: element.163
+    4300364: element.168
+    4300366: element.176
+    4300368: element.179
+    4300370: element.182
+    4300372: element.186
+    4300374: element.188
+    4300376: element.194
+    4300378: element.200
+    4300380: element.202
+    4300382: element.207
+    4300384: element.211
+    4300386: element.217
+    4300388: element.221
+    4300390: element.222
+    4300392: element.224
+    4300394: element.227
+    4300396: element.228
+    4300398: element.230
+    4300400: element.112
+    4300402: element.114
+    4300404: element.115
+    4300406: element.120
+    4300408: University Boulevard
+    4300410: element.122
+    4300412: University Boulevard.001
+    4300414: element.124
+    4300416: element.126
+    4300418: element.127
+    4300420: element.128
+    4300422: element.129
+    4300424: element.130
+    4300426: element.131
+    4300428: element.132
+    4300430: element.133
+    4300432: Main Mall.005
+    4300434: element.134
+    4300436: element.135
+    4300438: University Boulevard.002
+    4300440: element.136
+    4300442: element.137
+    4300444: element.138
+    4300446: element.141
+    4300448: element.142
+    4300450: element.143
+    4300452: element.144
+    4300454: element.146
+    4300456: element.148
+    4300458: element.149
+    4300460: University Boulevard.003
+    4300462: element.150
+    4300464: element.151
+    4300466: University Boulevard.004
+    4300468: West Mall
+    4300470: element.152
+    4300472: element.154
+    4300474: element.157
+    4300476: element.158
+    4300478: element.159
+    4300480: element.161
+    4300482: element.162
+    4300484: element.164
+    4300486: element.165
+    4300488: element.166
+    4300490: element.167
+    4300492: element.169
+    4300494: Main Mall.006
+    4300496: element.170
+    4300498: Education Road
+    4300500: element.171
+    4300502: element.172
+    4300504: Mathematics Road.001
+    4300506: University Boulevard.005
+    4300508: Education Road.001
+    4300510: element.173
+    4300512: University Boulevard.006
+    4300514: University Boulevard.007
+    4300516: element.174
+    4300518: element.175
+    4300520: element.178
+    4300522: Main Mall.007
+    4300524: element.180
+    4300526: element.181
+    4300528: element.183
+    4300530: element.184
+    4300532: element.185
+    4300534: Volkoff Lane
+    4300536: Mathematics Road.002
+    4300538: element.187
+    4300540: element.189
+    4300542: element.190
+    4300544: element.191
+    4300546: element.192
+    4300548: element.193
+    4300550: element.195
+    4300552: element.196
+    4300554: element.198
+    4300556: Loading Lane
+    4300558: element.199
+    4300560: element.201
+    4300562: East Mall.002
+    4300564: element.203
+    4300566: element.204
+    4300568: Main Mall.008
+    4300570: element.205
+    4300572: element.206
+    4300574: element.208
+    4300576: element.209
+    4300578: element.210
+    4300580: element.212
+    4300582: element.213
+    4300584: element.214
+    4300586: element.215
+    4300588: element.216
+    4300590: element.218
+    4300592: element.219
+    4300594: element.220
+    4300596: element.223
+    4300598: element.225
+    4300600: element.226
+    4300602: element.229
+    4300604: element.231
+    4300606: element.232
+    4300608: Agricultural Road
+    4300610: element.233
+    4300612: element.235
+    4300614: Aquatic Ecosystems Research Laboratory
+    4300616: Food, Nutrition and Health Building
+    4300618: Hut O-4
+    4300620: Education Library
+    4300622: Beaty Biodiversity Centre and Museum
+    4300624: Earth Sciences Building
+    4300626: element.236
+    4300628: element.237
+    4300630: element.239
+    4300632: element.240
+    4300634: element.241
+    4300636: element.242
+    4300638: element.243
+    4300640: Forest Sciences Centre
+    4300642: element.244
+    4300644: element.245
+    4300646: element.246
+    4300648: Campus & Community Planning 1
+    4300650: Earth & Ocean Sciences - South
+    4300652: Wood Products Laboratory
+    4300654: Orchard House
+    4300656: Horticulture Building
+    4300658: Earth & Ocean Sciences - Main
+    4300660: Barn Day Care
+    4300662: Stores Road Annex
+    4300664: Centre Of Coal And Mineral Processing
+    4300666: H.R. Macmillan Building
+    4300668: Frank Forward Building - Metallurgy
+    4300670: Landscape Architecture Annex
+    4300672: M.F.A Studios
+    4300674: A3 Monashee
+    4300676: A2 Monashee
+    4300678: A4 Cassiar
+    4300680: A2 Monashee.001
+    4300682: Gerald McGavin Building
+    4300684: High Head Lab
+    4300686: ICICS X-Wing
+    4300688: Pulp And Paper Research
+    4300690: Chemical and Biological Engineering Building
+    4300692: Earthquake Engineering Research Facility
+    4300694: Brimacombe Building
+    4300696: Macleod Building
+    4300698: Institute For Computing, Information And Cognitive Systems / Co
+    4300700: Civil And Mechanical Structures Lab
+    4300702: Civil And Mechanical Lab
+    4300704: Civil And Mechanical Engineering Building
+    4300706: Hugh Dempster Pavillion
+    4300708: Fred Kaiser Building
+    4300710: Clean Energy Research Centre
+    4300712: Clean Energy Research Centre.001
+    4300714: Engineering Design Centre (Wayne and William White)
+    4300716: Engineering Student Center
+    4300718: Orchard Commons
+    4300720: Brimacombe Building Addition
+    4300722: Center for Interactive Research on Sustainability (CIRS) Buildi
+    4300724: element.248
+    4300726: element.250
+    4300728: element.255
+    4300730: element.272
+    4300732: element.279
+    4300734: element.283
+    4300736: element.295
+    4300738: element.297
+    4300740: element.299
+    4300742: element.300
+    4300744: element.305
+    4300746: element.308
+    4300748: element.309
+    4300750: element.314
+    4300752: element.317
+    4300754: element.320
+    4300756: element.331
+    4300758: element.334
+    4300760: element.347
+    4300762: element.348
+    4300764: element.351
+    4300766: element.361
+    4300768: element.362
+    4300770: element.367
+    4300772: element.373
+    4300774: element.375
+    4300776: element.380
+    4300778: element.386
+    4300780: element.396
+    4300782: element.397
+    4300784: element.249
+    4300786: element.251
+    4300788: element.252
+    4300790: element.253
+    4300792: element.254
+    4300794: element.256
+    4300796: element.257
+    4300798: Engineering Lane
+    4300800: element.258
+    4300802: element.259
+    4300804: element.260
+    4300806: element.261
+    4300808: element.262
+    4300810: element.263
+    4300812: element.264
+    4300814: element.265
+    4300816: element.266
+    4300818: element.267
+    4300820: element.268
+    4300822: element.269
+    4300824: element.270
+    4300826: element.271
+    4300828: East Mall.003
+    4300830: element.273
+    4300832: element.274
+    4300834: element.275
+    4300836: element.276
+    4300838: Main Mall.009
+    4300840: element.277
+    4300842: element.278
+    4300844: element.280
+    4300846: element.281
+    4300848: element.282
+    4300850: element.284
+    4300852: element.285
+    4300854: element.286
+    4300856: element.287
+    4300858: Health Sciences Mall
+    4300860: element.288
+    4300862: Hospital Lane
+    4300864: element.289
+    4300866: element.290
+    4300868: element.291
+    4300870: element.292
+    4300872: element.293
+    4300874: Biological Science Road
+    4300876: element.294
+    4300878: element.296
+    4300880: Thunderbird Crescent
+    4300882: Thunderbird Crescent.001
+    4300884: element.298
+    4300886: element.301
+    4300888: element.302
+    4300890: element.303
+    4300892: Stores Road
+    4300894: element.304
+    4300896: element.306
+    4300898: element.307
+    4300900: element.310
+    4300902: element.311
+    4300904: element.312
+    4300906: element.313
+    4300908: Engineering Road
+    4300910: Sopron Lane
+    4300912: CAWP
+    4300914: element.315
+    4300916: element.316
+    4300918: element.318
+    4300920: Applied Science Lane
+    4300922: element.319
+    4300924: Applied Science Lane.001
+    4300926: element.321
+    4300928: Education Road.002
+    4300930: element.322
+    4300932: element.323
+    4300934: element.324
+    4300936: element.325
+    4300938: element.326
+    4300940: Biological Sciences Road
+    4300942: element.327
+    4300944: element.328
+    4300946: Applied Science Lane.002
+    4300948: element.329
+    4300950: element.330
+    4300952: Main Mall.010
+    4300954: element.332
+    4300956: element.333
+    4300958: element.335
+    4300960: element.336
+    4300962: element.337
+    4300964: element.338
+    4300966: element.339
+    4300968: element.340
+    4300970: element.341
+    4300972: element.342
+    4300974: element.343
+    4300976: element.344
+    4300978: element.345
+    4300980: West Mall.001
+    4300982: element.346
+    4300984: element.349
+    4300986: element.350
+    4300988: element.352
+    4300990: element.353
+    4300992: element.354
+    4300994: element.355
+    4300996: element.356
+    4300998: element.357
+    4301000: element.358
+    4301002: element.359
+    4301004: element.360
+    4301006: element.363
+    4301008: element.364
+    4301010: Stores Road.001
+    4301012: West Mall.002
+    4301014: element.365
+    4301016: element.366
+    4301018: element.368
+    4301020: element.369
+    4301022: element.370
+    4301024: element.371
+    4301026: element.372
+    4301028: element.374
+    4301030: element.376
+    4301032: element.377
+    4301034: Main Mall.011
+    4301036: element.378
+    4301038: element.379
+    4301040: element.381
+    4301042: element.382
+    4301044: element.383
+    4301046: element.384
+    4301048: Main Mall.012
+    4301050: element.387
+    4301052: element.388
+    4301054: Thunderbird Crescent.002
+    4301056: element.389
+    4301058: element.390
+    4301060: element.391
+    4301062: element.392
+    4301064: element.393
+    4301066: Agronomy Road
+    4301068: element.394
+    4301070: element.395
+    4301072: Agronomy Road.001
+    4301074: element.398
+    4301076: element.385
+    4301078: Campus Energy Center
+    4301080: element.399
+    4301082: element.400
+    4301084: Forest Sciences Centre.001
+    4301086: element.401
+    4301088: Centre Of Coal And Mineral Processing.001
+    4301090: B3 Selkirk
+    4301092: B2 Selkirk
+    4301094: C2 Hazelton
+    4301096: B1 Coast
+    4301098: B2 Selkirk.001
+    4301100: C1 Hazelton
+    4301102: Staff And Faculty Housing
+    4301104: B1 Coast.001
+    4301106: Old Barn Community Centre
+    4301108: B4 Coast
+    4301110: C1 Hazelton.001
+    4301112: element.406
+    4301114: Nine On The Park
+    4301116: Clements Green
+    4301118: element.407
+    4301120: element.408
+    4301122: element.409
+    4301124: Reflections
+    4301126: Journey
+    4301128: element.410
+    4301130: UBC Tennis Centre
+    4301132: A3 Monashee.001
+    4301134: A1 Cassiar
+    4301136: A2 Monashee.002
+    4301138: Technology Enterprise Facility
+    4301140: A4 Cassiar.001
+    4301142: A2 Monashee.003
+    4301144: A1 Cassiar.001
+    4301146: Macleod Building.001
+    4301148: "q\u2019\u0259l\u0259\u03C7\u0259n House"
+    4301150: "h\u0259m\u2019l\u0259s\u0259m\u2019 House"
+    4301152: element.411
+    4301154: element.412
+    4301156: element.413
+    4301158: element.415
+    4301160: element.416
+    4301162: element.426
+    4301164: element.429
+    4301166: element.433
+    4301168: element.441
+    4301170: element.443
+    4301172: element.445
+    4301174: element.452
+    4301176: element.459
+    4301178: element.464
+    4301180: element.476
+    4301182: element.484
+    4301184: element.485
+    4301186: element.494
+    4301188: element.502
+    4301190: element.506
+    4301192: element.511
+    4301194: element.514
+    4301196: element.414
+    4301198: element.417
+    4301200: Hampton Place
+    4301202: East Mall.004
+    4301204: element.418
+    4301206: element.419
+    4301208: element.420
+    4301210: element.421
+    4301212: element.422
+    4301214: element.423
+    4301216: element.424
+    4301218: element.425
+    4301220: element.427
+    4301222: element.428
+    4301224: Hawthorn Lane
+    4301226: element.430
+    4301228: element.431
+    4301230: element.432
+    4301232: Main Mall.013
+    4301234: element.434
+    4301236: Thunderbird Boulevard
+    4301238: element.435
+    4301240: element.436
+    4301242: element.437
+    4301244: Health Sciences Mall.001
+    4301246: element.438
+    4301248: element.439
+    4301250: Eagles Drive
+    4301252: Larkin Drive
+    4301254: element.440
+    4301256: element.442
+    4301258: element.444
+    4301260: element.446
+    4301262: Hawthorn Lane.001
+    4301264: Thunderbird Crescent.003
+    4301266: element.447
+    4301268: element.448
+    4301270: element.449
+    4301272: element.450
+    4301274: element.451
+    4301276: Thunderbird Boulevard.001
+    4301278: element.453
+    4301280: element.454
+    4301282: element.455
+    4301284: element.456
+    4301286: element.457
+    4301288: East Mall.005
+    4301290: Engineering Road.001
+    4301292: Sopron Lane.001
+    4301294: CAWP.001
+    4301296: East Mall.006
+    4301298: Thunderbird Boulevard.002
+    4301300: element.458
+    4301302: element.460
+    4301304: element.461
+    4301306: element.462
+    4301308: element.463
+    4301310: element.465
+    4301312: element.466
+    4301314: West Mall.003
+    4301316: element.467
+    4301318: element.468
+    4301320: element.469
+    4301322: Thunderbird Boulevard.003
+    4301324: element.470
+    4301326: UBC Housing Receiving
+    4301328: element.471
+    4301330: element.472
+    4301332: Main Mall.014
+    4301334: element.473
+    4301336: element.474
+    4301338: element.475
+    4301340: element.477
+    4301342: element.478
+    4301344: element.479
+    4301346: element.480
+    4301348: element.481
+    4301350: element.482
+    4301352: element.483
+    4301354: element.486
+    4301356: element.487
+    4301358: East Mall.007
+    4301360: element.488
+    4301362: element.489
+    4301364: element.490
+    4301366: element.491
+    4301368: element.492
+    4301370: element.493
+    4301372: Main Mall.015
+    4301374: Thunderbird Crescent.004
+    4301376: element.495
+    4301378: element.496
+    4301380: element.497
+    4301382: element.498
+    4301384: element.499
+    4301386: element.500
+    4301388: element.501
+    4301390: element.503
+    4301392: East Mall.008
+    4301394: element.504
+    4301396: element.505
+    4301398: element.507
+    4301400: element.508
+    4301402: Main Mall.016
+    4301404: element.509
+    4301406: element.510
+    4301408: Thunderbird Boulevard.004
+    4301410: element.512
+    4301412: element.513
+    4301414: Thunderbird Crescent.005
+    4301416: element.515
+    4301418: element.516
+    4301420: element.517
+    4301422: Main Mall.017
+    4301424: Logan Lane
+    4301426: Hawthorn Lane.002
+    4301428: element.518
+    4301430: UBC Housing Receiving.001
+    4301432: Thunderbird Crescent.006
+    4301434: Agronomy Road.002
+    4301436: element.519
+    4301438: East Mall.009
+    4301440: element.520
+    4301442: element.521
+    4301444: element.522
+    4301446: Swing Space Building
+    4301448: Douglas T. Kenny Building
+    4301450: Continuing Studies Building
+    4301452: Theatre-Film Production Building - Annex
+    4301454: Theatre-Film Production Building
+    4301456: Arbutus House
+    4301458: Maple House
+    4301460: Spruce House
+    4301462: Mercante
+    4301464: element.523
+    4301466: element.524
+    4301468: element.525
+    4301470: University Boulevard.008
+    4301472: element.526
+    4301474: University Boulevard.009
+    4301476: element.527
+    4301478: element.528
+    4301480: element.529
+    4301482: Loading Lane.001
+    4301484: element.530
+    4301486: element.531
+    4301488: element.532
+    4301490: element.533
+    4301492: element.534
+    4301494: element.535
+    4301496: element.536
+    4301498: element.537
+    4301500: Education Road.003
+    4301502: element.538
+    4301504: West Mall.004
+    4301506: element.539
+    4301508: element.541
+    4301510: element.540
+    4301512: David Strangway Building
+    4301514: Wesbrook Building
+    4301516: War Memorial Gym
+    4301518: Robert H. Lee Alumni Centre
+    4301520: The Nest (New SUB)
+    4301522: element.542
+    4301524: element.543
+    4301526: Central
+    4301528: D.H. Copp Building
+    4301530: Old Student Union Building (SUB)
+    4301532: element.544
+    4301534: element.555
+    4301536: element.562
+    4301538: element.571
+    4301540: element.572
+    4301542: element.577
+    4301544: element.593
+    4301546: element.545
+    4301548: element.546
+    4301550: University Boulevard.010
+    4301552: University Boulevard.011
+    4301554: element.547
+    4301556: Wesbrook Mall
+    4301558: element.548
+    4301560: element.549
+    4301562: element.550
+    4301564: element.551
+    4301566: element.552
+    4301568: Wesbrook Mall.001
+    4301570: element.553
+    4301572: University Boulevard.012
+    4301574: element.554
+    4301576: Wesbrook Mall.002
+    4301578: element.556
+    4301580: element.557
+    4301582: element.558
+    4301584: element.559
+    4301586: Wesbrook Mall.003
+    4301588: element.560
+    4301590: element.561
+    4301592: East Mall.010
+    4301594: element.563
+    4301596: element.564
+    4301598: element.565
+    4301600: element.566
+    4301602: element.567
+    4301604: element.568
+    4301606: element.569
+    4301608: element.570
+    4301610: College Highroad
+    4301612: element.573
+    4301614: element.574
+    4301616: element.575
+    4301618: element.576
+    4301620: Student Union Boulevard
+    4301622: element.578
+    4301624: element.579
+    4301626: University Boulevard.013
+    4301628: UBC Bus Loop
+    4301630: element.580
+    4301632: element.581
+    4301634: element.582
+    4301636: Wesbrook Crescent
+    4301638: element.583
+    4301640: Wesbrook Mall.004
+    4301642: University Boulevard.014
+    4301644: element.584
+    4301646: element.585
+    4301648: East Mall.011
+    4301650: University Boulevard.015
+    4301652: element.586
+    4301654: element.587
+    4301656: element.588
+    4301658: element.589
+    4301660: element.590
+    4301662: Wesbrook Mall.005
+    4301664: Wesbrook Mall.006
+    4301666: element.591
+    4301668: element.592
+    4301670: element.594
+    4301672: element.595
+    4301674: University Boulevard.016
+    4301676: Wesbrook Mall.007
+    4301678: element.596
+    4301680: University Boulevard.017
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

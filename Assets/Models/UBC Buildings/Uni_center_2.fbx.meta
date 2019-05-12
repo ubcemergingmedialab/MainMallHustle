@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 00112fc1f64896e4ca99f695a37d56e4
+timeCreated: 1523410601
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: University_Centre_1
+    100004: University_Centre_10
+    100006: University_Centre_11
+    100008: University_Centre_12
+    100010: University_Centre_13
+    100012: University_Centre_2
+    100014: University_Centre_3
+    100016: University_Centre_4
+    100018: University_Centre_5
+    100020: University_Centre_6
+    100022: University_Centre_7
+    100024: University_Centre_8
+    100026: University_Centre_9
+    400000: //RootNode
+    400002: University_Centre_1
+    400004: University_Centre_10
+    400006: University_Centre_11
+    400008: University_Centre_12
+    400010: University_Centre_13
+    400012: University_Centre_2
+    400014: University_Centre_3
+    400016: University_Centre_4
+    400018: University_Centre_5
+    400020: University_Centre_6
+    400022: University_Centre_7
+    400024: University_Centre_8
+    400026: University_Centre_9
+    2100000: lambert31
+    2300000: University_Centre_1
+    2300002: University_Centre_10
+    2300004: University_Centre_11
+    2300006: University_Centre_12
+    2300008: University_Centre_13
+    2300010: University_Centre_2
+    2300012: University_Centre_3
+    2300014: University_Centre_4
+    2300016: University_Centre_5
+    2300018: University_Centre_6
+    2300020: University_Centre_7
+    2300022: University_Centre_8
+    2300024: University_Centre_9
+    3300000: University_Centre_1
+    3300002: University_Centre_10
+    3300004: University_Centre_11
+    3300006: University_Centre_12
+    3300008: University_Centre_13
+    3300010: University_Centre_2
+    3300012: University_Centre_3
+    3300014: University_Centre_4
+    3300016: University_Centre_5
+    3300018: University_Centre_6
+    3300020: University_Centre_7
+    3300022: University_Centre_8
+    3300024: University_Centre_9
+    4300000: University_Centre_1
+    4300002: University_Centre_2
+    4300004: University_Centre_3
+    4300006: University_Centre_4
+    4300008: University_Centre_5
+    4300010: University_Centre_6
+    4300012: University_Centre_7
+    4300014: University_Centre_8
+    4300016: University_Centre_9
+    4300018: University_Centre_10
+    4300020: University_Centre_11
+    4300022: University_Centre_12
+    4300024: University_Centre_13
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

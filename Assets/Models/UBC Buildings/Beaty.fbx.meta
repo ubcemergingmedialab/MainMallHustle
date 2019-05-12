@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: a9bb77d6caaecab4bbf44d00ed414616
+timeCreated: 1523399122
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: beaty_1
+    100004: beaty_2
+    100006: beaty_3
+    100008: beaty_pillar_1
+    100010: beaty_pillar_10
+    100012: beaty_pillar_11
+    100014: beaty_pillar_12
+    100016: beaty_pillar_2
+    100018: beaty_pillar_3
+    100020: beaty_pillar_4
+    100022: beaty_pillar_5
+    100024: beaty_pillar_6
+    100026: beaty_pillar_7
+    100028: beaty_pillar_8
+    100030: beaty_pillar_9
+    100032: pillars
+    400000: //RootNode
+    400002: beaty_1
+    400004: beaty_2
+    400006: beaty_3
+    400008: beaty_pillar_1
+    400010: beaty_pillar_10
+    400012: beaty_pillar_11
+    400014: beaty_pillar_12
+    400016: beaty_pillar_2
+    400018: beaty_pillar_3
+    400020: beaty_pillar_4
+    400022: beaty_pillar_5
+    400024: beaty_pillar_6
+    400026: beaty_pillar_7
+    400028: beaty_pillar_8
+    400030: beaty_pillar_9
+    400032: pillars
+    2100000: lambert1
+    2300000: beaty_1
+    2300002: beaty_2
+    2300004: beaty_3
+    2300006: beaty_pillar_1
+    2300008: beaty_pillar_10
+    2300010: beaty_pillar_11
+    2300012: beaty_pillar_12
+    2300014: beaty_pillar_2
+    2300016: beaty_pillar_3
+    2300018: beaty_pillar_4
+    2300020: beaty_pillar_5
+    2300022: beaty_pillar_6
+    2300024: beaty_pillar_7
+    2300026: beaty_pillar_8
+    2300028: beaty_pillar_9
+    3300000: beaty_1
+    3300002: beaty_2
+    3300004: beaty_3
+    3300006: beaty_pillar_1
+    3300008: beaty_pillar_10
+    3300010: beaty_pillar_11
+    3300012: beaty_pillar_12
+    3300014: beaty_pillar_2
+    3300016: beaty_pillar_3
+    3300018: beaty_pillar_4
+    3300020: beaty_pillar_5
+    3300022: beaty_pillar_6
+    3300024: beaty_pillar_7
+    3300026: beaty_pillar_8
+    3300028: beaty_pillar_9
+    4300000: beaty_3
+    4300002: beaty_2
+    4300004: beaty_1
+    4300006: beaty_pillar_12
+    4300008: beaty_pillar_11
+    4300010: beaty_pillar_10
+    4300012: beaty_pillar_9
+    4300014: beaty_pillar_8
+    4300016: beaty_pillar_7
+    4300018: beaty_pillar_6
+    4300020: beaty_pillar_5
+    4300022: beaty_pillar_4
+    4300024: beaty_pillar_3
+    4300026: beaty_pillar_2
+    4300028: beaty_pillar_1
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3f68e24b386fa54498adc800d5c4baf5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

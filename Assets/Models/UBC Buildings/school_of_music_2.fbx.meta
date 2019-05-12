@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 88e17640ec43b5a4dbdae17154b3d47f
+timeCreated: 1523410477
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: School_of_Music_1
+    100002: School_of_Music_2
+    100004: //RootNode
+    100006: School_of_Music_3
+    100008: School_of_Music_4
+    100010: School_of_Music_Pillars
+    100012: School_of_Music_Pillars_1
+    100014: School_of_Music_Pillars_10
+    100016: School_of_Music_Pillars_11
+    100018: School_of_Music_Pillars_12
+    100020: School_of_Music_Pillars_13
+    100022: School_of_Music_Pillars_14
+    100024: School_of_Music_Pillars_15
+    100026: School_of_Music_Pillars_16
+    100028: School_of_Music_Pillars_17
+    100030: School_of_Music_Pillars_18
+    100032: School_of_Music_Pillars_19
+    100034: School_of_Music_Pillars_2
+    100036: School_of_Music_Pillars_20
+    100038: School_of_Music_Pillars_3
+    100040: School_of_Music_Pillars_4
+    100042: School_of_Music_Pillars_5
+    100044: School_of_Music_Pillars_6
+    100046: School_of_Music_Pillars_7
+    100048: School_of_Music_Pillars_8
+    100050: School_of_Music_Pillars_9
+    400000: School_of_Music_1
+    400002: School_of_Music_2
+    400004: //RootNode
+    400006: School_of_Music_3
+    400008: School_of_Music_4
+    400010: School_of_Music_Pillars
+    400012: School_of_Music_Pillars_1
+    400014: School_of_Music_Pillars_10
+    400016: School_of_Music_Pillars_11
+    400018: School_of_Music_Pillars_12
+    400020: School_of_Music_Pillars_13
+    400022: School_of_Music_Pillars_14
+    400024: School_of_Music_Pillars_15
+    400026: School_of_Music_Pillars_16
+    400028: School_of_Music_Pillars_17
+    400030: School_of_Music_Pillars_18
+    400032: School_of_Music_Pillars_19
+    400034: School_of_Music_Pillars_2
+    400036: School_of_Music_Pillars_20
+    400038: School_of_Music_Pillars_3
+    400040: School_of_Music_Pillars_4
+    400042: School_of_Music_Pillars_5
+    400044: School_of_Music_Pillars_6
+    400046: School_of_Music_Pillars_7
+    400048: School_of_Music_Pillars_8
+    400050: School_of_Music_Pillars_9
+    2100000: lambert25
+    2300000: School_of_Music_1
+    2300002: School_of_Music_2
+    2300004: School_of_Music_3
+    2300006: School_of_Music_4
+    2300008: School_of_Music_Pillars_1
+    2300010: School_of_Music_Pillars_10
+    2300012: School_of_Music_Pillars_11
+    2300014: School_of_Music_Pillars_12
+    2300016: School_of_Music_Pillars_13
+    2300018: School_of_Music_Pillars_14
+    2300020: School_of_Music_Pillars_15
+    2300022: School_of_Music_Pillars_16
+    2300024: School_of_Music_Pillars_17
+    2300026: School_of_Music_Pillars_18
+    2300028: School_of_Music_Pillars_19
+    2300030: School_of_Music_Pillars_2
+    2300032: School_of_Music_Pillars_20
+    2300034: School_of_Music_Pillars_3
+    2300036: School_of_Music_Pillars_4
+    2300038: School_of_Music_Pillars_5
+    2300040: School_of_Music_Pillars_6
+    2300042: School_of_Music_Pillars_7
+    2300044: School_of_Music_Pillars_8
+    2300046: School_of_Music_Pillars_9
+    3300000: School_of_Music_1
+    3300002: School_of_Music_2
+    3300004: School_of_Music_3
+    3300006: School_of_Music_4
+    3300008: School_of_Music_Pillars_1
+    3300010: School_of_Music_Pillars_10
+    3300012: School_of_Music_Pillars_11
+    3300014: School_of_Music_Pillars_12
+    3300016: School_of_Music_Pillars_13
+    3300018: School_of_Music_Pillars_14
+    3300020: School_of_Music_Pillars_15
+    3300022: School_of_Music_Pillars_16
+    3300024: School_of_Music_Pillars_17
+    3300026: School_of_Music_Pillars_18
+    3300028: School_of_Music_Pillars_19
+    3300030: School_of_Music_Pillars_2
+    3300032: School_of_Music_Pillars_20
+    3300034: School_of_Music_Pillars_3
+    3300036: School_of_Music_Pillars_4
+    3300038: School_of_Music_Pillars_5
+    3300040: School_of_Music_Pillars_6
+    3300042: School_of_Music_Pillars_7
+    3300044: School_of_Music_Pillars_8
+    3300046: School_of_Music_Pillars_9
+    4300000: School_of_Music_1
+    4300002: School_of_Music_2
+    4300004: School_of_Music_3
+    4300006: School_of_Music_4
+    4300008: School_of_Music_Pillars_1
+    4300010: School_of_Music_Pillars_2
+    4300012: School_of_Music_Pillars_3
+    4300014: School_of_Music_Pillars_4
+    4300016: School_of_Music_Pillars_5
+    4300018: School_of_Music_Pillars_6
+    4300020: School_of_Music_Pillars_7
+    4300022: School_of_Music_Pillars_8
+    4300024: School_of_Music_Pillars_9
+    4300026: School_of_Music_Pillars_10
+    4300028: School_of_Music_Pillars_11
+    4300030: School_of_Music_Pillars_12
+    4300032: School_of_Music_Pillars_13
+    4300034: School_of_Music_Pillars_14
+    4300036: School_of_Music_Pillars_15
+    4300038: School_of_Music_Pillars_16
+    4300040: School_of_Music_Pillars_17
+    4300042: School_of_Music_Pillars_18
+    4300044: School_of_Music_Pillars_19
+    4300046: School_of_Music_Pillars_20
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

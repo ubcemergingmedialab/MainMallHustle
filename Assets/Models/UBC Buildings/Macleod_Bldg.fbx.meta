@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: c930e1c709af65147815f8b5e922333c
+timeCreated: 1523381637
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Macleod_Bldg_1
+    100004: Macleod_Bldg_10
+    100006: Macleod_Bldg_11
+    100008: Macleod_Bldg_12
+    100010: Macleod_Bldg_13
+    100012: Macleod_Bldg_14
+    100014: Macleod_Bldg_15
+    100016: Macleod_Bldg_16
+    100018: Macleod_Bldg_17
+    100020: Macleod_Bldg_18
+    100022: Macleod_Bldg_19
+    100024: Macleod_Bldg_2
+    100026: Macleod_Bldg_20
+    100028: Macleod_Bldg_21
+    100030: Macleod_Bldg_22
+    100032: Macleod_Bldg_23
+    100034: Macleod_Bldg_24
+    100036: Macleod_Bldg_25
+    100038: Macleod_Bldg_26
+    100040: Macleod_Bldg_27
+    100042: Macleod_Bldg_28
+    100044: Macleod_Bldg_4
+    100046: Macleod_Bldg_5
+    100048: Macleod_Bldg_6
+    100050: Macleod_Bldg_7
+    100052: Macleod_Bldg_8
+    100054: Macleod_Bldg_9
+    400000: //RootNode
+    400002: Macleod_Bldg_1
+    400004: Macleod_Bldg_10
+    400006: Macleod_Bldg_11
+    400008: Macleod_Bldg_12
+    400010: Macleod_Bldg_13
+    400012: Macleod_Bldg_14
+    400014: Macleod_Bldg_15
+    400016: Macleod_Bldg_16
+    400018: Macleod_Bldg_17
+    400020: Macleod_Bldg_18
+    400022: Macleod_Bldg_19
+    400024: Macleod_Bldg_2
+    400026: Macleod_Bldg_20
+    400028: Macleod_Bldg_21
+    400030: Macleod_Bldg_22
+    400032: Macleod_Bldg_23
+    400034: Macleod_Bldg_24
+    400036: Macleod_Bldg_25
+    400038: Macleod_Bldg_26
+    400040: Macleod_Bldg_27
+    400042: Macleod_Bldg_28
+    400044: Macleod_Bldg_4
+    400046: Macleod_Bldg_5
+    400048: Macleod_Bldg_6
+    400050: Macleod_Bldg_7
+    400052: Macleod_Bldg_8
+    400054: Macleod_Bldg_9
+    2100000: Macleod_Bldg_Texture
+    2300000: Macleod_Bldg_1
+    2300002: Macleod_Bldg_10
+    2300004: Macleod_Bldg_11
+    2300006: Macleod_Bldg_12
+    2300008: Macleod_Bldg_13
+    2300010: Macleod_Bldg_14
+    2300012: Macleod_Bldg_15
+    2300014: Macleod_Bldg_16
+    2300016: Macleod_Bldg_17
+    2300018: Macleod_Bldg_18
+    2300020: Macleod_Bldg_19
+    2300022: Macleod_Bldg_2
+    2300024: Macleod_Bldg_20
+    2300026: Macleod_Bldg_21
+    2300028: Macleod_Bldg_22
+    2300030: Macleod_Bldg_23
+    2300032: Macleod_Bldg_24
+    2300034: Macleod_Bldg_25
+    2300036: Macleod_Bldg_26
+    2300038: Macleod_Bldg_27
+    2300040: Macleod_Bldg_28
+    2300042: Macleod_Bldg_4
+    2300044: Macleod_Bldg_5
+    2300046: Macleod_Bldg_6
+    2300048: Macleod_Bldg_7
+    2300050: Macleod_Bldg_8
+    2300052: Macleod_Bldg_9
+    3300000: Macleod_Bldg_1
+    3300002: Macleod_Bldg_10
+    3300004: Macleod_Bldg_11
+    3300006: Macleod_Bldg_12
+    3300008: Macleod_Bldg_13
+    3300010: Macleod_Bldg_14
+    3300012: Macleod_Bldg_15
+    3300014: Macleod_Bldg_16
+    3300016: Macleod_Bldg_17
+    3300018: Macleod_Bldg_18
+    3300020: Macleod_Bldg_19
+    3300022: Macleod_Bldg_2
+    3300024: Macleod_Bldg_20
+    3300026: Macleod_Bldg_21
+    3300028: Macleod_Bldg_22
+    3300030: Macleod_Bldg_23
+    3300032: Macleod_Bldg_24
+    3300034: Macleod_Bldg_25
+    3300036: Macleod_Bldg_26
+    3300038: Macleod_Bldg_27
+    3300040: Macleod_Bldg_28
+    3300042: Macleod_Bldg_4
+    3300044: Macleod_Bldg_5
+    3300046: Macleod_Bldg_6
+    3300048: Macleod_Bldg_7
+    3300050: Macleod_Bldg_8
+    3300052: Macleod_Bldg_9
+    4300000: Macleod_Bldg_1
+    4300002: Macleod_Bldg_2
+    4300004: Macleod_Bldg_4
+    4300006: Macleod_Bldg_5
+    4300008: Macleod_Bldg_6
+    4300010: Macleod_Bldg_7
+    4300012: Macleod_Bldg_8
+    4300014: Macleod_Bldg_9
+    4300016: Macleod_Bldg_10
+    4300018: Macleod_Bldg_11
+    4300020: Macleod_Bldg_12
+    4300022: Macleod_Bldg_13
+    4300024: Macleod_Bldg_14
+    4300026: Macleod_Bldg_15
+    4300028: Macleod_Bldg_16
+    4300030: Macleod_Bldg_17
+    4300032: Macleod_Bldg_18
+    4300034: Macleod_Bldg_19
+    4300036: Macleod_Bldg_20
+    4300038: Macleod_Bldg_21
+    4300040: Macleod_Bldg_22
+    4300042: Macleod_Bldg_23
+    4300044: Macleod_Bldg_24
+    4300046: Macleod_Bldg_25
+    4300048: Macleod_Bldg_26
+    4300050: Macleod_Bldg_27
+    4300052: Macleod_Bldg_28
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
