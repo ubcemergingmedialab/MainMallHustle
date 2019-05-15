@@ -11074,7 +11074,7 @@ GameObject:
   - component: {fileID: 4645882793284158}
   m_Layer: 0
   m_Name: static People
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128444,8 +128444,6 @@ MonoBehaviour:
   DASHTIME: 1
   speed: 2
   speedMultiplier: 500
-  posItemForce: 10
-  negItemForce: 10
   vrCamera: {fileID: 1712577601411070}
 --- !u!114 &114549142630358588
 MonoBehaviour:

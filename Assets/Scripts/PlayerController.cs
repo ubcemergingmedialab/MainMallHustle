@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Collectable"))
 		{
-			//timer.addBonus();
+			timer.addBonus();
 			other.gameObject.SetActive(false);
 			startDash();
 		}
@@ -70,8 +70,14 @@ public class PlayerController : MonoBehaviour
 		Vector3 forward = vrCamera.transform.TransformDirection(Vector3.forward);
 		if (other.gameObject.CompareTag("Obstacle")) // Don't collide if dashing
 		{
-			//timer.addPenalty();
-			rb.AddForce(forward * force * other.GetComponent<Obstacle>().force );
+			timer.addPenalty();
+			/* 
+			TODO: rb.AddForce(forward * force * other.GetComponent<Obstacle>().force );
+			
+			The line above was suppose to call a class called Obstacle attached to the objects that would contain different values for each obstacle
+			BUT there seems to be an issue now hence why I used -50 for now
+			*/ 
+			rb.AddForce(forward * force * -50);
 		}
 		
 		if(other.gameObject.CompareTag("Wall")){
