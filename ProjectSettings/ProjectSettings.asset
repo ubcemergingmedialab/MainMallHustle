@@ -137,7 +137,7 @@ PlayerSettings:
   vrSettings:
     cardboard:
       depthFormat: 0
-      enableTransitionView: 1
+      enableTransitionView: 0
     daydream:
       depthFormat: 0
       useSustainedPerformanceMode: 0
