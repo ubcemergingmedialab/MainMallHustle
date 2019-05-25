@@ -52,11 +52,11 @@ public class TimerScript : MonoBehaviour {
         addTimeText.text = "";
         removeTimeText.text = "";
         resetTime();
-        SetTime();
 	}
 
     public void resetTime() {
         time = Initialtime;
+        SetTime();
     }
 	
 	// Update is called once per frame
