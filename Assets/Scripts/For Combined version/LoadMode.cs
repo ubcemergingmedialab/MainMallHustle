@@ -8,30 +8,42 @@ public class LoadMode : MonoBehaviour {
     private float timer;
     private bool gazeAt;
 
-	private bool isGameMode = false;
+	private bool isGameMode = true;
 	private string modeName;
 	
 	// Update is called once per frame
 	void Update () {
-		if (gazeAt) {
+        if (Input.GetButton("Fire1")) {
+            modeName = this.name;
+            gazeAt = modeName.Contains("End") || gazeAt;
+        }
+
+        if (gazeAt) {
             timer += Time.deltaTime;
 
 			if (timer >= gazeTime) {
                 if (modeName.Contains("Tour")){
 					isGameMode = false;
 				}
-				else if (modeName.Contains("End")){	
-					MainMallManager.Instance.returnToMainMenu(modeName);
+				else if (modeName.Contains("End")){
+                    timer = 0;
+                    gazeAt = false;
+                    MainMallManager.Instance.returnToMainMenu(modeName);
+                    
 					return;
 				}
 				else{
 					isGameMode = true;
 				}
+                timer = 0;
+                gazeAt = false;
 				MainMallManager.Instance.loadMode(isGameMode);
             }
 	    }
     }
 	
+
+
 	public void PointerEnter() {
         gazeAt = true;
 		modeName = this.name;
