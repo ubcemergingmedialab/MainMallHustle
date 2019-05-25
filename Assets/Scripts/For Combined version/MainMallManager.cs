@@ -13,12 +13,21 @@ public class MainMallManager : MonoBehaviour {
 	[SerializeField] private GameObject baseLevel;
 	[SerializeField] private GameObject mainMenu;
     private static MainMallManager instance;
+    [SerializeField] private GameObject Player;
+    [SerializeField] private GameObject Collectables;
+    private Vector3 playerPos;
+
+    public List<GameObject> eatten = new List<GameObject>();
 
     public static MainMallManager Instance
     {
         get { return instance; }
     }
 
+    private void Start()
+    {
+        playerPos = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
+    }
     void Awake()
     {
         if(instance != null && instance != this)
@@ -29,6 +38,7 @@ public class MainMallManager : MonoBehaviour {
         {
             instance = this;
         }
+
     }
 	public void loadMode(bool isGameMode){
 		mainMenu.SetActive(false);		
@@ -36,6 +46,8 @@ public class MainMallManager : MonoBehaviour {
 
 		if (isGameMode){
 			gameMode.SetActive(true);
+            Player.transform.position = playerPos;
+            TimerScript.Instance.resetTime();
 		}
 		else{
 			tourMode.SetActive(true);
@@ -52,11 +64,26 @@ public class MainMallManager : MonoBehaviour {
     // Game related functions
     public void isOnTime(bool onTime)
     {
+        foreach (GameObject obj in eatten)
+        {
+            obj.SetActive(true);
+        }
+
         baseLevel.SetActive(false);
         gameMode.SetActive(false);
+        mainMenu.SetActive(false);
         endScene.SetActive(true);
+
 
         endScene.GetComponent<EndSceneManager>().loadEndScene(onTime);
     }
+
+    //Add Eaten objects to list
+    public void addEatten(GameObject obj) {
+        eatten.Add(obj);
+    }
     // Tour related functions
+
+
+
 }

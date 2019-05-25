@@ -1,3 +1,5 @@
+//-----------------------------------------------------------------------
+// <copyright file="GvrRecenterOnlyController.cs" company="Google Inc.">
 // Copyright 2017 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,67 +13,107 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+// </copyright>
+//-----------------------------------------------------------------------
 
 using UnityEngine;
-using UnityEngine.VR;
 
-// Recenter only the controller.
-// Usage: Set GvrControllerPointer > Controller as the pointer field, and
-// the camera to recenter (e.g. Main Camera).
-public class GvrRecenterOnlyController : MonoBehaviour {
-  private Quaternion yawCorrection = Quaternion.identity;
+#if UNITY_2017_2_OR_NEWER
+using UnityEngine.XR;
+#else
+using XRSettings = UnityEngine.VR.VRSettings;
+#endif  // UNITY_2017_2_OR_NEWER
 
-  [Tooltip("The controller to recenter")]
-  public GameObject pointer;
+/// <summary>
+/// Used to recenter only the controllers, required for scenes that have no clear forward direction.
+/// </summary>
+/// <remarks>
+/// Details: https://developers.google.com/vr/distribute/daydream/design-requirements#UX-D6
+/// <para>
+/// Works by offsetting the orientation of the transform when a recenter occurs to correct for the
+/// orientation change caused by the recenter event.
+/// </para><para>
+/// Usage: Place on the parent of the camera that should have its orientation corrected.
+/// </para></remarks>
+[HelpURL("https://developers.google.com/vr/reference/unity/class/GvrRecenterOnlyController")]
+public class GvrRecenterOnlyController : MonoBehaviour
+{
+    private Quaternion lastAppliedYawCorrection = Quaternion.identity;
+    private Quaternion yawCorrection = Quaternion.identity;
 
-  [Tooltip("The camera to recenter")]
-  public Camera cam;
+    private void Update()
+    {
+        bool connected = false;
+        foreach (var hand in Gvr.Internal.ControllerUtils.AllHands)
+        {
+            GvrControllerInputDevice device = GvrControllerInput.GetDevice(hand);
+            if (device.State == GvrConnectionState.Connected)
+            {
+                connected = true;
+                break;
+            }
+        }
 
-  void Start() {
-    if (cam == null) {
-      cam = Camera.main;
-    }
-  }
-
-  void Update() {
-    if (cam == null || pointer == null
-       || GvrControllerInput.State != GvrConnectionState.Connected) {
-      return;
-    }
-    // Daydream is loaded only on deivce, not in editor.
-#if UNITY_ANDROID && !UNITY_EDITOR
-        if (UnityEngine.XR.XRSettings.loadedDeviceName != "daydream")
+        if (!connected)
         {
             return;
         }
+
+// Daydream is loaded only on deivce, not in editor.
+#if UNITY_ANDROID && !UNITY_EDITOR
+        if (XRSettings.loadedDeviceName != GvrSettings.VR_SDK_DAYDREAM)
+        {
+          return;
+        }
 #endif
-    if (GvrControllerInput.Recentered) {
-      pointer.transform.rotation = yawCorrection;
-      cam.transform.parent.rotation = yawCorrection;
-      return;
-    }
+
+        if (GvrControllerInput.Recentered)
+        {
+            ApplyYawCorrection();
+            return;
+        }
 
 #if UNITY_EDITOR
-    // Compatibility for Instant Preview.
-    if (Gvr.Internal.InstantPreview.Instance != null &&
-      Gvr.Internal.InstantPreview.Instance.enabled &&
-      (GvrControllerInput.HomeButtonDown || GvrControllerInput.HomeButtonState)) {
-      return;
-    }
+        // Compatibility for Instant Preview.
+        if (Gvr.Internal.InstantPreview.IsActive &&
+            Gvr.Internal.ControllerUtils.AnyButton(GvrControllerButton.System))
+          {
+            return;
+        }
 #else  // !UNITY_EDITOR
-    if (GvrControllerInput.HomeButtonDown || GvrControllerInput.HomeButtonState) {
-      return;
-    }
+        if (Gvr.Internal.ControllerUtils.AnyButton(GvrControllerButton.System))
+        {
+            return;
+        }
 #endif  // UNITY_EDITOR
-    yawCorrection = Quaternion.Euler(0, cam.transform.rotation.eulerAngles.y, 0);
-  }
 
-  void OnDisable() {
-    yawCorrection = Quaternion.identity;
-    if (cam != null && pointer != null) {
-      pointer.transform.rotation = yawCorrection;
-      cam.transform.parent.rotation = yawCorrection;
+        yawCorrection = GetYawCorrection();
     }
-  }
 
+    private void OnDisable()
+    {
+        yawCorrection = Quaternion.identity;
+        RemoveLastYawCorrection();
+    }
+
+    private void ApplyYawCorrection()
+    {
+        RemoveLastYawCorrection();
+        transform.localRotation = transform.localRotation * yawCorrection;
+        lastAppliedYawCorrection = yawCorrection;
+    }
+
+    private void RemoveLastYawCorrection()
+    {
+        transform.localRotation =
+      transform.localRotation * Quaternion.Inverse(lastAppliedYawCorrection);
+        lastAppliedYawCorrection = Quaternion.identity;
+    }
+
+    private Quaternion GetYawCorrection()
+    {
+        Quaternion headRotation = GvrVRHelpers.GetHeadRotation();
+        Vector3 euler = headRotation.eulerAngles;
+        return lastAppliedYawCorrection * Quaternion.Euler(0.0f, euler.y, 0.0f);
+    }
 }

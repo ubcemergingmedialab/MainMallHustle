@@ -10,7 +10,7 @@ public class TimerScript : MonoBehaviour {
     public Text addTimeText;
     public Text removeTimeText;
 
-    public float time;
+    public float Initialtime;
     public float timeMultiplier;
 
     private string minutesString;
@@ -24,15 +24,40 @@ public class TimerScript : MonoBehaviour {
     public float timeBonus = 5f;
     public float timePenalty = 10f;
 
-	// Use this for initialization
-	void Start ()
+    private float time;
+
+    private static TimerScript instance;
+    public static TimerScript Instance
+    {
+        get { return instance; }
+    }
+
+    void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+
+    }
+
+    // Use this for initialization
+    void Start ()
     {
         timeTextMax = 1f;
         addTimeText.text = "";
         removeTimeText.text = "";
-
-        SetTime();
+        resetTime();
 	}
+
+    public void resetTime() {
+        time = Initialtime;
+        SetTime();
+    }
 	
 	// Update is called once per frame
 	void Update ()

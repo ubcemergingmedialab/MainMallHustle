@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - options
-  - Collectable
-  - Obstacle
-  - End
-  - Pick Up
-  - Wall
-  - Plants
-  - Cones
-  - Walkable
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -22,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - Walkable
-  - Obstacle
-  - Plants
-  - Wall
-  - Dashing
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
