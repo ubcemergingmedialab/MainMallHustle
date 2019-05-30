@@ -14,16 +14,12 @@ public class PlayerController : MonoBehaviour
 	public float speed;         //Move Speed from Camera Tilt
 	public float speedMultiplier;
 
-    
-
 	private Rigidbody rb;
 	private float force;
 	private bool dashing;
 	private float dashTimer;
 
 	public GameObject vrCamera;
-
-   
 
 	/*
 	 * TODO
@@ -37,7 +33,7 @@ public class PlayerController : MonoBehaviour
 		Physics.gravity = new Vector3(0, -200.0F, 0);
 		dashing = false;
 		dashTimer = 0;
-    }
+	}
 
 	void FixedUpdate()
 	{
@@ -66,7 +62,6 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Collectable"))
 		{
-            MainMallManager.Instance.addEatten(other.gameObject);
 			timer.addBonus();
 			other.gameObject.SetActive(false);
 			startDash();
@@ -91,8 +86,6 @@ public class PlayerController : MonoBehaviour
 		}
 
 		if(other.gameObject.CompareTag("End")){
-            
-
 			MainMallManager.Instance.isOnTime(true);
 		}
 	}
