@@ -20,8 +20,7 @@ public class LoadMode : MonoBehaviour {
 
         if (gazeAt) {
             timer += Time.deltaTime;
-
-			if (timer >= gazeTime) {
+            if (timer >= gazeTime) {
                 if (modeName.Contains("Tour")){
 					isGameMode = false;
 				}
