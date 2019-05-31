@@ -10,24 +10,22 @@ public class cardboard_detection : MonoBehaviour {
 
     // Use this for initialization
     public GameObject notification;
-    public GameObject Canvas;
-    public GameObject UICamera;
+    public GameObject loadingBar;
+
     
 	void Start () {
       
 
-            notification.GetComponent<Text>().text = "Please put your phone into cardboard with your home button to the left.";
-
-	}
+        notification.GetComponent<Text>().text = "Please put your phone into cardboard with your home button to the left.";
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if (Input.deviceOrientation == DeviceOrientation.LandscapeRight)
         {
-            Canvas.SetActive(false);
-            UICamera.SetActive(false);
-            StartCoroutine(LoadDevice("cardboard"));
-            SceneManager.LoadScene("Main Scene");
+            StartCoroutine(LoadDevice("Cardboard"));
+            StartCoroutine(LoadYourAsyncScene());
 
         }
 	}
@@ -41,5 +39,19 @@ public class cardboard_detection : MonoBehaviour {
             
         }
         XRSettings.enabled = true;
+    }
+
+    public IEnumerator LoadYourAsyncScene()
+    {
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Main Scene");
+        notification.GetComponent<Text>().text = " ";
+
+
+        while (!asyncLoad.isDone)
+        {   
+            loadingBar.GetComponent<Text>().text = "Loading progress: " + (Mathf.RoundToInt(asyncLoad.progress * 100)) + "%";
+            yield return null;
+        }
     }
 }

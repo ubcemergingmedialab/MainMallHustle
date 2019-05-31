@@ -8,6 +8,7 @@ public class DelayedStart : MonoBehaviour {
     public float timeNeedToPause;
     public GameObject timer;
 	void Start () {
+        timer.SetActive(false);
         StartCoroutine("Delay");
 	}
 	
@@ -17,7 +18,7 @@ public class DelayedStart : MonoBehaviour {
         float pauseTime = Time.realtimeSinceStartup + timeNeedToPause;
         while (Time.realtimeSinceStartup < pauseTime)
         {
-            timer.SetActive(false);
+            
             yield return 0;
         }
         timer.SetActive(true);

@@ -229,40 +229,35 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 223351157645694766, guid: 48b1e08bcf23f354c921b538be62ef7b,
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
         type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114865676444172844, guid: 48b1e08bcf23f354c921b538be62ef7b,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 114865676444172844, guid: 48b1e08bcf23f354c921b538be62ef7b,
-        type: 2}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114865676444172844, guid: 48b1e08bcf23f354c921b538be62ef7b,
-        type: 2}
-      propertyPath: m_FontData.m_HorizontalOverflow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224931515166419772, guid: 48b1e08bcf23f354c921b538be62ef7b,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224931515166419772, guid: 48b1e08bcf23f354c921b538be62ef7b,
-        type: 2}
-      propertyPath: m_LocalRotation.w
+      propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224931515166419772, guid: 48b1e08bcf23f354c921b538be62ef7b,
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
         type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114421565619335712, guid: 48b1e08bcf23f354c921b538be62ef7b,
+        type: 2}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b1e08bcf23f354c921b538be62ef7b, type: 2}
