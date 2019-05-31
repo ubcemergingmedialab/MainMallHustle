@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 public class cardboard_detection : MonoBehaviour {
 
