@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadMode : MonoBehaviour {
-	public float gazeTime = 2f;
+	public float gazeTime = 10f;
 
     private float timer;
     private bool gazeAt;
