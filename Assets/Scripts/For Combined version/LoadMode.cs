@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadMode : MonoBehaviour {
-	public float gazeTime = 2f;
+	public float gazeTime = 10f;
 
     private float timer;
     private bool gazeAt;
@@ -20,8 +20,7 @@ public class LoadMode : MonoBehaviour {
 
         if (gazeAt) {
             timer += Time.deltaTime;
-
-			if (timer >= gazeTime) {
+            if (timer >= gazeTime) {
                 if (modeName.Contains("Tour")){
 					isGameMode = false;
 				}
