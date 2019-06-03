@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 952615c41bfcf0949882cb885ed52ddd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fountainspurt1
+    100004: fountainspurt2
+    100006: fountainspurt3
+    100008: fountainspurt4
+    100010: fountainspurt5
+    100012: fountainspurt6
+    100014: fountainspurt7
+    100016: fountian_itself
+    100018: fountian_itself1
+    100020: fountian_itself2
+    100022: fountianpieces
+    100024: outsidering1
+    100026: outsidering2
+    400000: //RootNode
+    400002: fountainspurt1
+    400004: fountainspurt2
+    400006: fountainspurt3
+    400008: fountainspurt4
+    400010: fountainspurt5
+    400012: fountainspurt6
+    400014: fountainspurt7
+    400016: fountian_itself
+    400018: fountian_itself1
+    400020: fountian_itself2
+    400022: fountianpieces
+    400024: outsidering1
+    400026: outsidering2
+    2100000: lambert3
+    2100002: lambert2
+    2300000: fountainspurt1
+    2300002: fountainspurt2
+    2300004: fountainspurt3
+    2300006: fountainspurt4
+    2300008: fountainspurt5
+    2300010: fountainspurt6
+    2300012: fountainspurt7
+    2300014: fountian_itself
+    2300016: fountian_itself1
+    2300018: outsidering1
+    2300020: outsidering2
+    3300000: fountainspurt1
+    3300002: fountainspurt2
+    3300004: fountainspurt3
+    3300006: fountainspurt4
+    3300008: fountainspurt5
+    3300010: fountainspurt6
+    3300012: fountainspurt7
+    3300014: fountian_itself
+    3300016: fountian_itself1
+    3300018: outsidering1
+    3300020: outsidering2
+    4300000: outsidering2
+    4300002: outsidering1
+    4300004: fountian_itself
+    4300006: fountian_itself1
+    4300008: fountainspurt1
+    4300010: fountainspurt2
+    4300012: fountainspurt3
+    4300014: fountainspurt4
+    4300016: fountainspurt5
+    4300018: fountainspurt6
+    4300020: fountainspurt7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
