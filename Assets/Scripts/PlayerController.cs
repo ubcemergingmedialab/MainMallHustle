@@ -69,12 +69,12 @@ public class PlayerController : MonoBehaviour
             AudioSource collectablesAudios = GetComponent<AudioSource>();
             if (other.name.Contains("boba")|| other.name.Contains("coffee"))
             {
-                Debug.Log("drinks");
+                
                 collectablesAudios.clip = drinkingClip;
             }
             else
             {
-                Debug.Log("donuts");
+                
                 collectablesAudios.clip = eatingClip;
             }
             collectablesAudios.Play();
