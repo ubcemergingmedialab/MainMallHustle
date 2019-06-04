@@ -21,12 +21,16 @@ public class PlayerController : MonoBehaviour
 
 	public GameObject vrCamera;
 
-	/*
+    public AudioClip drinkingClip;
+    public AudioClip eatingClip;
+    
+
+    /*
 	 * TODO
 	 * - find a way to keep camera rotation above 0 (might not be an issue once we switch to 1st person)
 	 */
 
-	void Start()
+    void Start()
 	{
 		rb = GetComponent<Rigidbody>();
 		force = speed * speedMultiplier;
@@ -60,8 +64,20 @@ public class PlayerController : MonoBehaviour
 	//For Iteraction with Pickup Items
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag("Collectable"))
-		{
+        if (other.gameObject.CompareTag("Collectable"))
+        {
+            AudioSource collectablesAudios = GetComponent<AudioSource>();
+            if (other.name.Contains("boba")|| other.name.Contains("coffee"))
+            {
+                Debug.Log("drinks");
+                collectablesAudios.clip = drinkingClip;
+            }
+            else
+            {
+                Debug.Log("donuts");
+                collectablesAudios.clip = eatingClip;
+            }
+            collectablesAudios.Play();
 			timer.addBonus();
 			other.gameObject.SetActive(false);
 			startDash();
