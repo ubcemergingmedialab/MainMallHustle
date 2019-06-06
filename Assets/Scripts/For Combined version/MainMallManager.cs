@@ -12,12 +12,24 @@ public class MainMallManager : MonoBehaviour {
 
 	[SerializeField] private GameObject baseLevel;
 	[SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject cardboardDetectionMenu;
+
     private static MainMallManager instance;
     [SerializeField] private GameObject Player;
     [SerializeField] private GameObject Collectables;
     private Vector3 playerPos;
 
-    public List<GameObject> eatten = new List<GameObject>();
+    public enum GameStates
+    {
+        WaitingForRotation,
+        Main,
+        Game
+    }
+
+    public static GameStates CurrentState = GameStates.WaitingForRotation;
+    public static bool switched = false;
+
+    private List<GameObject> eatten = new List<GameObject>();
 
     public static MainMallManager Instance
     {
@@ -28,6 +40,7 @@ public class MainMallManager : MonoBehaviour {
     {
         playerPos = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
     }
+
     void Awake()
     {
         if(instance != null && instance != this)
@@ -40,7 +53,40 @@ public class MainMallManager : MonoBehaviour {
         }
 
     }
-	public void loadMode(bool isGameMode){
+
+    // Every frame, check the current game state and whether we have just switched from our last game state
+    private void Update()
+    {
+        switch (CurrentState)
+        {
+            case GameStates.WaitingForRotation:
+                //If rotation change currentstate to main
+                if (switched)
+                {
+                    switched = false;
+                }
+                break;
+
+            case GameStates.Main:
+                if (switched)
+                {
+                    cardboardDetectionMenu.SetActive(false);
+                    Destroy(cardboardDetectionMenu);
+                    mainMenu.SetActive(true);
+                    switched = false;
+                }
+                break;
+
+            case GameStates.Game:
+                if (switched)
+                {
+                    switched = false;
+                }
+                break;
+        }
+    }
+
+    public void loadMode(bool isGameMode){
 		mainMenu.SetActive(false);		
 		baseLevel.SetActive(true);
 
@@ -83,7 +129,4 @@ public class MainMallManager : MonoBehaviour {
         eatten.Add(obj);
     }
     // Tour related functions
-
-
-
 }
