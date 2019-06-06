@@ -19,16 +19,17 @@ public class MainMallManager : MonoBehaviour {
     [SerializeField] private GameObject Collectables;
     private Vector3 playerPos;
 
+    // Game state related variables
     public enum GameStates
     {
         WaitingForRotation,
         Main,
         Game
     }
-
     public static GameStates CurrentState = GameStates.WaitingForRotation;
     public static bool switched = false;
 
+    // List of Eatten objects
     private List<GameObject> eatten = new List<GameObject>();
 
     public static MainMallManager Instance
