@@ -11,24 +11,25 @@ public class cardboard_detection : MonoBehaviour {
     // Use this for initialization
     public GameObject notification;
     public GameObject loadingBar;
+    private Camera cardboardDetectCamera;
 
-    
-	void Start () {
-      
-
+    void Start () {
         notification.GetComponent<Text>().text = "Please put your phone into cardboard with your home button to the left.";
-        
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.deviceOrientation == DeviceOrientation.LandscapeRight)
         {
             StartCoroutine(LoadDevice("Cardboard"));
-            StartCoroutine(LoadYourAsyncScene());
-
+            MainMallManager.switched = true;
+            MainMallManager.CurrentState = MainMallManager.GameStates.Main;
         }
-	}
+    }
+    
+
+    // For loading the cardboard device
     public IEnumerator LoadDevice(string newDevice)
     {
 
@@ -36,22 +37,22 @@ public class cardboard_detection : MonoBehaviour {
         {
             XRSettings.LoadDeviceByName(newDevice);
             yield return null;
-            
         }
         XRSettings.enabled = true;
     }
 
-    public IEnumerator LoadYourAsyncScene()
-    {
+    // If want switch between scenes, use the following function
+    //public IEnumerator LoadYourAsyncScene()
+    //{
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Main Scene");
-        notification.GetComponent<Text>().text = " ";
+    //    AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Main Scene");
+    //    notification.GetComponent<Text>().text = " ";
 
 
-        while (!asyncLoad.isDone)
-        {   
-            loadingBar.GetComponent<Text>().text = "Loading progress: " + (Mathf.RoundToInt(asyncLoad.progress * 100)) + "%";
-            yield return null;
-        }
-    }
+    //    while (!asyncLoad.isDone)
+    //    {   
+    //        loadingBar.GetComponent<Text>().text = "Loading progress: " + (Mathf.RoundToInt(asyncLoad.progress * 100)) + "%";
+    //        yield return null;
+    //    }
+    //}
 }

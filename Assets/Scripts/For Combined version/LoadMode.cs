@@ -19,6 +19,7 @@ public class LoadMode : MonoBehaviour {
         }
 
         if (gazeAt) {
+            Debug.Log("Gazeat activated");
             timer += Time.deltaTime;
             if (timer >= gazeTime) {
                 if (modeName.Contains("Tour")){
@@ -36,6 +37,8 @@ public class LoadMode : MonoBehaviour {
 				}
                 timer = 0;
                 gazeAt = false;
+                MainMallManager.CurrentState = MainMallManager.GameStates.Game;
+                MainMallManager.switched = true;
 				MainMallManager.Instance.loadMode(isGameMode);
             }
 	    }
@@ -44,12 +47,14 @@ public class LoadMode : MonoBehaviour {
 
 
 	public void PointerEnter() {
+        Debug.Log("Pointer entered");
         gazeAt = true;
 		modeName = this.name;
     }
 
     public void PointerExit()
     {
+        Debug.Log("Pointe exited");
         gazeAt = false;
     }
 }
