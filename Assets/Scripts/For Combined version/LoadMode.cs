@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadMode : MonoBehaviour {
-	public float gazeTime = 5000f;
+	private float gazeTime = 7.0f;
 
     private float timer;
     private bool gazeAt;
@@ -18,43 +18,57 @@ public class LoadMode : MonoBehaviour {
             gazeAt = modeName.Contains("End") || gazeAt;
         }
 
-        if (gazeAt) {
-            Debug.Log("Gazeat activated");
-            timer += Time.deltaTime;
-            if (timer >= gazeTime) {
-                if (modeName.Contains("Tour")){
-					isGameMode = false;
-				}
-				else if (modeName.Contains("End")){
-                    timer = 0;
+        if (gazeAt)
+        {
+            if (modeName.Contains("End"))
+            {
+                timer += Time.deltaTime;
+            }
+            else
+            {
+                timer += 10.0f * Time.deltaTime;
+            }
+
+            if (timer >= gazeTime)
+            {
+                if (modeName.Contains("Tour"))
+                {
+                    isGameMode = false;
+                }
+                else if (modeName.Contains("End"))
+                {
+                    timer = timer - gazeTime;
                     gazeAt = false;
                     MainMallManager.Instance.returnToMainMenu(modeName);
-                    
-					return;
-				}
-				else{
-					isGameMode = true;
-				}
-                timer = 0;
+
+                    return;
+                }
+                else
+                {
+                    isGameMode = true;
+                }
+                timer = timer - gazeTime;
                 gazeAt = false;
                 MainMallManager.CurrentState = MainMallManager.GameStates.Game;
                 MainMallManager.switched = true;
-				MainMallManager.Instance.loadMode(isGameMode);
+                MainMallManager.Instance.loadMode(isGameMode);
             }
-	    }
+
+        }
     }
 	
 
-
+    // Called automatically when pointer detects an object
 	public void PointerEnter() {
-        Debug.Log("Pointer entered");
+        //Debug.Log("Pointer entered");
         gazeAt = true;
 		modeName = this.name;
     }
 
+    // Called automatically when pointer exits an object
     public void PointerExit()
     {
-        Debug.Log("Pointe exited");
+        //Debug.Log("Pointe exited");
         gazeAt = false;
     }
 }
