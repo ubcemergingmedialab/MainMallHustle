@@ -59,7 +59,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1541616885415474
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +290,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notification: {fileID: 1877201957926478}
   loadingBar: {fileID: 1828608002304758}
-  button: {fileID: 0}
 --- !u!114 &114686922785826012
 MonoBehaviour:
   m_ObjectHideFlags: 1
