@@ -683,7 +683,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   scriptingDefineSymbols:
-    1: ODIN_INSPECTOR
+    1: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_PLUGIN
     7: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_PLUGIN
   platformArchitecture: {}
   scriptingBackend: {}
