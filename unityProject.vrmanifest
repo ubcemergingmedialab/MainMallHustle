@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.mainmallhustle.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\uemlfive\\Desktop\\testetst\\MainMallHustle\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Main Mall Hustle [Testing]"
+        }
+      }
+    }
+  ]
+}

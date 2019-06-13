@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadMode : MonoBehaviour {
-	private float gazeTime = 7.0f;
+	private float gazeTime = 1.0f;
 
     private float timer;
     private bool gazeAt;
@@ -20,13 +20,14 @@ public class LoadMode : MonoBehaviour {
 
         if (gazeAt)
         {
+            Debug.Log(timer);
             if (modeName.Contains("End"))
             {
                 timer += Time.deltaTime;
             }
             else
             {
-                timer += 10.0f * Time.deltaTime;
+                timer += Time.deltaTime;
             }
 
             if (timer >= gazeTime)

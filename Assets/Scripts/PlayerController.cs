@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using HTC.UnityPlugin.Vive;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,46 +20,55 @@ public class PlayerController : MonoBehaviour
 	private bool dashing;
 	private float dashTimer;
 
-	public GameObject vrCamera;
-
-	/*
+    public GameObject Player;
+    public GameObject CameraRig;
+    
+    private Vector3 pos;
+    /*
 	 * TODO
 	 * - find a way to keep camera rotation above 0 (might not be an issue once we switch to 1st person)
 	 */
 
-	void Start()
+    void Start()
 	{
-		rb = GetComponent<Rigidbody>();
+        
+		rb = Player.GetComponent<Rigidbody>();
 		force = speed * speedMultiplier;
-		Physics.gravity = new Vector3(0, -200.0F, 0);
-		dashing = false;
+        Physics.gravity = new Vector3(0, -200.0f, 0);
+        dashing = false;
 		dashTimer = 0;
-	}
+        //pos = transform.position - Player.transform.position;
+    }
 
 	void FixedUpdate()
 	{
 		updateDash();
 		// TODO: fix this so that it does not rely on generic phone input but rather device specific input
-		if (Input.GetButton("Fire1"))
-			moveCamera();
+		if (ViveInput.GetPress(HandRole.RightHand, ControllerButton.Trigger) 
+            || ViveInput.GetPress(HandRole.LeftHand, ControllerButton.Trigger))
+        {
+            Debug.Log("Moving");
+            moveCamera();
+        }
 	}
 
 	//Moving the Player Object
 	void moveCamera()
 	{
-		Vector3 forward;
-		forward = vrCamera.transform.TransformDirection(Vector3.forward);
 
-		rb.AddForce(forward * force);
-		if (dashing)
-		{
-			rb.AddForce(forward * DASHSPEED);
-		}
-	}
+        Vector3 forward;
+        forward = transform.TransformDirection(Vector3.forward);
+        rb.AddForce(forward * force);
+        // if the player is dashing from consumables, add an extra force
+        if (dashing)
+        {
+            rb.AddForce(forward * DASHSPEED);
+        }
+    }
 
 
-	//For Iteraction with Pickup Items
-	void OnTriggerEnter(Collider other)
+    //For Iteraction with Pickup Items
+    void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("Collectable"))
 		{
@@ -67,7 +77,7 @@ public class PlayerController : MonoBehaviour
 			startDash();
 		}
 		
-		Vector3 forward = vrCamera.transform.TransformDirection(Vector3.forward);
+		Vector3 forward = transform.TransformDirection(Vector3.forward);
 		if (other.gameObject.CompareTag("Obstacle")) // Don't collide if dashing
 		{
 			timer.addPenalty();
@@ -97,8 +107,8 @@ public class PlayerController : MonoBehaviour
 			if (dashTimer <= 0)
 			{
 				dashing = false;
-				gameObject.layer = LayerMask.NameToLayer("Default"); // Set player's layer to default, which collide with obstacle
-				gameObject.GetComponent<Collider>().enabled = !dashing; // Reset collider
+				Player.gameObject.layer = LayerMask.NameToLayer("Default"); // Set player's layer to default, which collide with obstacle
+				Player.gameObject.GetComponent<Collider>().enabled = !dashing; // Reset collider
 			}
 		}
 	}
@@ -106,6 +116,11 @@ public class PlayerController : MonoBehaviour
 	private void startDash() {
 		dashing = true;
 		dashTimer += DASHTIME;
-		gameObject.layer = LayerMask.NameToLayer("Dashing"); // Set player's layer to dashing, which does not collide with obstacle
+		Player.gameObject.layer = LayerMask.NameToLayer("Dashing"); // Set player's layer to dashing, which does not collide with obstacle
 	}
+
+    private void LateUpdate()
+    {
+        CameraRig.transform.position = Player.transform.position;
+    }
 }
