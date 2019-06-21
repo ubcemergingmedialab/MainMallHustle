@@ -9,6 +9,9 @@ Picture this: Your class starts in 10 minutes and you haven’t had coffee. You 
 * First year students of UBC who are still confused of the locations of the buildings along Main Mall
 * Anyone who wants to experience UBC Vancouver Campus without physically being there
 
+# Oculus version
+The Oculus version of the application is under "oculus-branch"
+
 # Credits
 The donut model is credited to Poly by Google
 
