@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         
 		rb = Player.GetComponent<Rigidbody>();
 		force = speed * speedMultiplier;
-        Physics.gravity = new Vector3(0, -200.0f, 0);
+        //Physics.gravity = new Vector3(0, -200.0f, 0);
         dashing = false;
 		dashTimer = 0;
         //pos = transform.position - Player.transform.position;
@@ -43,21 +43,31 @@ public class PlayerController : MonoBehaviour
 	void FixedUpdate()
 	{
 		updateDash();
-		// TODO: fix this so that it does not rely on generic phone input but rather device specific input
-		if (ViveInput.GetPress(HandRole.RightHand, ControllerButton.Trigger) 
+        // TODO: fix this so that it does not rely on generic phone input but rather device specific input
+
+        if (ViveInput.GetPress(HandRole.RightHand, ControllerButton.Trigger)
             || ViveInput.GetPress(HandRole.LeftHand, ControllerButton.Trigger))
         {
             Debug.Log("Moving");
             moveCamera();
         }
-	}
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            Debug.Log("Moving");
+            moveCamera();
+        }
+
+        if (Input.GetKey(KeyCode.Mouse0)) {
+            Debug.Log("Moving");
+            moveCamera();
+        }
+    }
 
 	//Moving the Player Object
 	void moveCamera()
 	{
-
-        Vector3 forward;
-        forward = transform.TransformDirection(Vector3.forward);
+        Vector3 forward = transform.forward;
         rb.AddForce(forward * force);
         // if the player is dashing from consumables, add an extra force
         if (dashing)
@@ -72,15 +82,15 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Collectable"))
 		{
-			timer.addBonus();
+			timer.AddBonus();
 			other.gameObject.SetActive(false);
 			startDash();
 		}
 		
-		Vector3 forward = transform.TransformDirection(Vector3.forward);
+		Vector3 forward = transform.forward;
 		if (other.gameObject.CompareTag("Obstacle")) // Don't collide if dashing
 		{
-			timer.addPenalty();
+			timer.AddPenalty();
 			/* 
 			TODO: rb.AddForce(forward * force * other.GetComponent<Obstacle>().force );
 			

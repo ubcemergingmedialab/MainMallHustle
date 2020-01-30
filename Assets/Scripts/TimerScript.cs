@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 /*
  * Main Script handling updating the timer for the game +/-
  */
 public class TimerScript : MonoBehaviour {
+
+    public GameObject player2;
+    // public GameObject canvas;
 
     public Text timerText;
     public Text addTimeText;
@@ -25,6 +29,9 @@ public class TimerScript : MonoBehaviour {
     public float timePenalty = 10f;
 
     private float time;
+
+    private Coroutine removeBonusCo;
+    private Coroutine removePenaltyCo;
 
     private static TimerScript instance;
     public static TimerScript Instance
@@ -51,10 +58,12 @@ public class TimerScript : MonoBehaviour {
         timeTextMax = 1f;
         addTimeText.text = "";
         removeTimeText.text = "";
-        resetTime();
+        ResetTime();
 	}
 
-    public void resetTime() {
+    public void ResetTime() {
+        addTimeText.text = "";
+        removeTimeText.text = "";
         time = Initialtime;
         SetTime();
     }
@@ -72,31 +81,18 @@ public class TimerScript : MonoBehaviour {
         {
             SetTime();
         }
-
-        if (addTimeTextTime >= timeTextMax) // If the AddTimeTextTime duration is overdue, reset time and text
-        {
-            addTimeText.text = "";
-            addTimeTextTime = 0f;
-        }
-        else // Else increase AddTimeTextTime duration
-        {
-            addTimeTextTime += Time.deltaTime;
-        }
-
-        if (removeTimeTextTime >= timeTextMax) // If the RemoveTimeTextTime duration is overdue, reset time and text
-        {
-            removeTimeText.text = "";
-            removeTimeTextTime = 0f;
-        }
-        else // Else increase RemoveTextTimeText duration
-        {
-            removeTimeTextTime += Time.deltaTime;
-        }
     }
 
     void GameOver() // Game over procedures
     {
+        addTimeText.text = "";
+        removeTimeText.text = "";
         MainMallManager.Instance.isOnTime(false);
+        //
+        player2.GetComponent<Rigidbody>().Sleep();
+        //
+        
+        // gameObject.SetActive(false);
     }
 
     void SetTime() // Get minutes and seconds, and set them as text
@@ -110,17 +106,37 @@ public class TimerScript : MonoBehaviour {
         timerText.text = minutesString + ":" + secondsString;
     }
 
-    public void addBonus(){
+    public void AddBonus(){
         time += timeBonus;
         addTimeText.text = "+ " + timeBonus.ToString();
-        addTimeTextTime = 0f;
+        if (removeBonusCo != null)
+        {
+            StopCoroutine(removeBonusCo);
+        }
+        removeBonusCo = StartCoroutine(RemoveBonusText());
         SetTime();
     }
 
-    public void addPenalty(){
+    public void AddPenalty(){
         time -= timePenalty;
         removeTimeText.text = "- " + timePenalty.ToString();
-        removeTimeTextTime = 0f;    
+        if (removePenaltyCo != null)
+        {
+            StopCoroutine(removePenaltyCo);
+        }
+        removePenaltyCo = StartCoroutine(RemovePenaltyText());
         SetTime();
+    }
+
+    private IEnumerator RemovePenaltyText()
+    {
+        yield return new WaitForSeconds(timeTextMax);
+        removeTimeText.text = "";
+    }
+
+    private IEnumerator RemoveBonusText()
+    {
+        yield return new WaitForSeconds(timeTextMax);
+        addTimeText.text = "";
     }
 }

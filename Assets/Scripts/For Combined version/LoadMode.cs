@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadMode : MonoBehaviour {
+
+    public GameObject collectibles;
+    public GameObject canvas;
+
 	private float gazeTime = 1.0f;
 
     private float timer;
@@ -10,25 +14,23 @@ public class LoadMode : MonoBehaviour {
 
 	private bool isGameMode = true;
 	private string modeName;
-	
-	// Update is called once per frame
-	void Update () {
-        if (Input.GetButton("Fire1")) {
-            modeName = this.name;
-            gazeAt = modeName.Contains("End") || gazeAt;
-        }
+
+    private void Start()
+    {
+        modeName = name;
+    }
+
+    // Update is called once per frame
+    void Update () {
+        //if (Input.GetButton("Fire1")) {
+        //    modeName = this.name;
+        //    gazeAt = modeName.Contains("End") || gazeAt;
+        //}
 
         if (gazeAt)
         {
             Debug.Log(timer);
-            if (modeName.Contains("End"))
-            {
-                timer += Time.deltaTime;
-            }
-            else
-            {
-                timer += Time.deltaTime;
-            }
+            timer += Time.deltaTime;
 
             if (timer >= gazeTime)
             {
@@ -53,6 +55,10 @@ public class LoadMode : MonoBehaviour {
                 MainMallManager.CurrentState = MainMallManager.GameStates.Game;
                 MainMallManager.switched = true;
                 MainMallManager.Instance.loadMode(isGameMode);
+                // enable canvas
+                // canvas.SetActive(true);
+                // enable collectibles
+                // collectibles.SetActive(true);
             }
 
         }

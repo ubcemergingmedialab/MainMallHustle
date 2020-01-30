@@ -33,7 +33,7 @@ MonoBehaviour:
   m_simulatorAutoTrackMainCamera: 1
   m_simulateTrackpadTouch: 1
   m_enableSimulatorKeyboardMouseControl: 1
-  m_simulatorKeyMoveSpeed: 1.5
+  m_simulatorKeyMoveSpeed: 10
   m_simulatorMouseRotateSpeed: 90
   m_simulatorKeyRotateSpeed: 90
   m_activateUnityNativeVRModule: 1

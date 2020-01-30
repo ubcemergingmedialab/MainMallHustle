@@ -94,7 +94,7 @@ public class MainMallManager : MonoBehaviour {
 		if (isGameMode){
 			gameMode.SetActive(true);
             Player.transform.position = playerPos;
-            TimerScript.Instance.resetTime();
+            TimerScript.Instance.ResetTime();
 		}
 		else{
 			tourMode.SetActive(true);

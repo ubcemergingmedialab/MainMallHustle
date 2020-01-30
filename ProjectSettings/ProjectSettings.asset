@@ -154,6 +154,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.UBC.Mainmall
     Standalone: com.eml.mainmallhustle
+    iOS: com.Company.MainMallHustleiOS
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -244,8 +245,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/uemlfive/Downloads/MainMall.keystore
-  AndroidKeyaliasName: mainmallhustle
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
@@ -388,13 +389,13 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
-    m_Automatic: 1
+    m_Automatic: 0
   - m_BuildTarget: AppleTVSupport
     m_APIs: 10000000
     m_Automatic: 0
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
-    m_Automatic: 1
+    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
@@ -404,7 +405,12 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
-    - Oculus
+    - daydream
+    - cardboard
+  - m_BuildTarget: iOS
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -421,7 +427,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Used to scan QR codes
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
@@ -670,7 +676,7 @@ PlayerSettings:
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
-  webGLMemorySize: 256
+  webGLMemorySize: 512
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLDataCaching: 1
@@ -684,7 +690,9 @@ PlayerSettings:
   webGLLinkerTarget: 1
   scriptingDefineSymbols:
     1: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_PLUGIN';SIXDOF;VIU_PLUGIN;VIU_OCULUSVR
+    4: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_OCULUSVR;VIU_PLUGIN
     7: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_PLUGIN;VIU_OCULUSVR
+    13: ODIN_INSPECTOR;VIU_GOOGLEVR;VIU_GOOGLEVR_1_150_0_NEWER;VIU_OCULUSVR;VIU_PLUGIN
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
